@@ -1,0 +1,1447 @@
+{
+  "actions": {
+    "add": "Add {label}",
+    "analyseWith": "Analyse with {label}",
+    "archive": "Archive {label}",
+    "block": "Protect {label}",
+    "call": "Call {label}",
+    "cancel": "Cancel {label}",
+    "clear": {
+      "all": "Clear all",
+      "selection": "Clear selection"
+    },
+    "confirm": "Confirm {label}",
+    "copy": {
+      "default": "Copy {label}",
+      "id": "Copy {label} ID | Copy {label} IDs",
+      "table": "Copy {name} | Copy {name}s",
+      "uid": "Copy {label} reference | Copy {label} references",
+      "url": "Copy {label} URL | Copy {label} URLs"
+    },
+    "create": "Create {label}",
+    "delete": "Delete {label}",
+    "download": "Download {label}",
+    "download_csv": "Download CSV {document}",
+    "download_pdf": "Download PDF {document}",
+    "duplicate": "Duplicate {label}",
+    "edit": "Edit {label}",
+    "showHistory": "View history",
+    "filters": {
+      "reset": "Reset filters"
+    },
+    "generate": "Generate {label}",
+    "invite": "Invite user | Invite users",
+    "insert": "Insert {label}",
+    "new_masculine": "New {label}",
+    "new_feminine": "New {label}",
+    "notifications": {
+      "subscribe": "Subscribe to notifications",
+      "unsubscribe": "Unsubscribe from notifications",
+      "unsubscribed": "Not subscribed",
+      "subscribed": "Subscribed"
+    },
+    "openInNewWindow": "Open in new window",
+    "pagination": {
+      "next": "Next page",
+      "previous": "Previous page"
+    },
+    "pdf": {
+      "generate": "Generate PDF {document}",
+      "regenerate": "Regenerate PDF {document}"
+    },
+    "pin": "Pin {label}",
+    "preview": "Preview {label}",
+    "private": "Make {label} private",
+    "public": "Make {label} public",
+    "quickActions": "Quick actions",
+    "markAs": "Mark as {label}",
+    "register": "Register {label}",
+    "reload": "Reload {label}",
+    "reset": "Reset {label}",
+    "resync": "Resync {label}",
+    "revoke": "Revoke {label}",
+    "save": "Save {label}",
+    "select": "Select {label}",
+    "selectAll": "Select all",
+    "send": "Send {label}",
+    "share": "Share {label}",
+    "show": "Show {label}",
+    "showAll": "Show all",
+    "showArchived": "Show archived",
+    "showDetails": "Show details",
+    "translate": "Translate",
+    "unarchive": "Unarchive {label}",
+    "unblock": "Unprotect {label}",
+    "unpin": "Unpin {label}",
+    "update": "Update {label}",
+    "upload": "Upload {label}",
+    "view": "View {label}",
+    "open": "Open {label}",
+    "view_changes": "View changes",
+    "open_in_google_maps": "Open in Google Maps",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "showDatetime": "Show date and time"
+  },
+  "alerts": {
+    "customers": {
+      "select": "Select a customer to continue."
+    },
+    "defaults": {
+      "info": "You can set the custom fields later."
+    },
+    "files": {
+      "private": "The file is private, only authorized users can view it.",
+      "public": "The file is public, anyone with the link can view it."
+    },
+    "users": {
+      "create": "No email confirmation will be sent when creating users through this form.",
+      "delete": "Your user has been deleted. Closing session..."
+    },
+    "promptAlert": "Please type the word \"{word}\" to confirm",
+    "createSucceeded": "Record created successfully",
+    "duplicateSucceeded": "Record duplicated successfully",
+    "createFailed": "Error creating record",
+    "updateSucceeded": "Record updated successfully",
+    "updateFailed": "Error updating record",
+    "uploadSucceeded": "File uploaded successfully",
+    "uploadFailed": "Error uploading file",
+    "magicLinkSent": "Magic link sent to your email",
+    "emailSent": "Email sent",
+    "userCreated": "User created successfully",
+    "userBanned": "User banned successfully",
+    "updatedProfile": "Profile updated successfully",
+    "failedToUpdateProfile": "Failed to update profile",
+    "anErrorOccurred": "An error occurred. Please try again later.",
+    "signedIn": "Signed in",
+    "signedOut": "Signed out"
+  },
+  "components": {
+    "app": {
+      "button": {
+        "copy": "Copy",
+        "refresh": {
+          "tooltip": "Update information",
+          "toast": {
+            "success": {
+              "title": "Success",
+              "description": "The information has been updated successfully"
+            },
+            "error": {
+              "title": "Error updating information",
+              "description": "An error occurred while updating the information"
+            }
+          }
+        }
+      },
+      "dropdown": {
+        "menuUser": {
+          "navigation": {
+            "configuration": "Configuración",
+            "theme": {
+              "label": "Tema",
+              "primary": "Primario",
+              "neutral": "Neutral"
+            },
+            "appearance": {
+              "label": "Apariencia",
+              "light": "Claro",
+              "dark": "Oscuro",
+              "system": "Sistema"
+            },
+            "language": "Idioma",
+            "signOut": "Cerrar sesión"
+          }
+        }
+      },
+      "form": {
+        "fieldsets": {
+          "concept": {
+            "label": "Concept",
+            "sku": "SKU",
+            "unitSales": "Sales unit",
+            "unitPurchase": "Purchasing unit",
+            "unitManufacturing": "Manufacturing unit",
+            "unitInventory": "Stock keeping unit",
+            "unitService": "Service unit",
+            "unitOther": "Other unit",
+            "quantity": "Quantity",
+            "unitPrice": "Unit Price",
+            "discount": "Discount",
+            "subtotal": "Subtotal",
+            "taxes": "Taxes",
+            "total": "Total"
+          },
+          "data": {
+            "label": "Data",
+            "default": {
+              "label": "Default",
+              "tooltip": "Select default values"
+            },
+            "tabs": {
+              "form": "Form",
+              "json": "JSON"
+            }
+          },
+          "delivery": {
+            "tabs": {
+              "customer": "Customer",
+              "customerbranch": "Branch"
+            },
+            "incoterm": "Terms of delivery",
+            "schedule": "Delivery schedule",
+            "deliveryDate": "Delivery date",
+            "details": "Delivery details",
+            "deliveryAddress": "Delivery address",
+            "alert": {
+              "address": "To update the address, it is necessary to edit the branch or the fiscal address."
+            }
+          },
+          "itemTaxesMX": {
+            "tabs": {
+              "transfers": "Transfers",
+              "retentions": "Retentions"
+            },
+            "taxes": {
+              "transfer": "Transfer",
+              "retention": "Retention",
+              "iva": "IVA",
+              "ieps": "IEPS",
+              "isr": "ISR"
+            }
+          },
+          "payment": {
+            "satCfdiUse": "SAT CFDI Use",
+            "paymentMethod": "Payment method",
+            "paymentTerm": "Payment term",
+            "paymentCondition": "Payment condition",
+            "paymentCurrency": "Payment currency",
+            "currency": "Currency",
+            "exchangeRate": "Exchange rate"
+          },
+          "pdfSettings": {
+            "label": "Generate PDF settings",
+            "details": "Generate detailed version",
+            "images": "Generate version with images",
+            "watermark": "Generate version with watermark",
+            "pageSize": "Page size"
+          },
+          "phone": {
+            "label": "Phone",
+            "country": "Country code",
+            "number": "Phone number",
+            "extension": "Extension"
+          },
+          "taxesMX": {
+            "label": "Taxes",
+            "transfers": "Transfers",
+            "retentions": "Retentions",
+            "object": "Tax object",
+            "satKey": "SAT Key",
+            "satUnit": "SAT Unit",
+            "vat": "VAT",
+            "ieps": "IEPS",
+            "isr": "ISR",
+            "alert": {
+              "satKey": "Item without tax object. Taxes are disabled and will not be applied."
+            }
+          },
+          "field": {
+            "hintTooltip": "Click to display information about the field."
+          }
+        }
+      },
+      "filters": {
+        "dateRange": {
+          "last7Days": "Last 7 days",
+          "last14Days": "Last 14 days",
+          "last30Days": "Last 30 days",
+          "last3Months": "Last 3 months",
+          "last6Months": "Last 6 months",
+          "lastYear": "Last year"
+        }
+      },
+      "input": {
+        "files": {
+          "placeholder": "Upload files",
+          "actions": {
+            "remove": "Click to remove image"
+          }
+        },
+        "password": {
+          "requirements": {
+            "minLength": "Must be at least {length} characters",
+            "atLeast1Number": "At least 1 number",
+            "atLeast1LowercaseLetter": "At least 1 lowercase letter",
+            "atLeast1UppercaseLetter": "At least 1 uppercase letter",
+            "mustContain": "Must contain:",
+            "met": " - Requirement met",
+            "notMet": " - Requirement not met"
+          },
+          "strength": {
+            "none": "Enter a password",
+            "weak": "Weak password",
+            "medium": "Medium password",
+            "strong": "Strong password"
+          },
+          "actions": {
+            "show": "Show password",
+            "hide": "Hide password"
+          }
+        },
+        "strings": {
+          "placeholder": "Enter a new note"
+        }
+      },
+      "modal": {
+        "archive": {
+          "title": "Archive",
+          "description": "This action can only be undone by an administrator. Are you sure you want to proceed?",
+          "actions": {
+            "archive": "Archive",
+            "cancel": "Cancel"
+          }
+        },
+        "delete": {
+          "title": "Delete",
+          "description": "This action can only be undone by an administrator. Are you sure you want to proceed?",
+          "actions": {
+            "delete": "Delete",
+            "cancel": "Cancel"
+          }
+        },
+        "promptActions": {
+          "title": "Quick Actions"
+        },
+        "shareFile": {
+          "title": "Share File",
+          "description": "Share the file with the following link:",
+          "actions": {
+            "copy": "Copy URL",
+            "share": "Share"
+          }
+        },
+        "changes": {
+          "title": "Changes",
+          "description": "Changes to the record",
+          "fields": {
+            "column": "Column",
+            "data": "Data",
+            "dataPrevious": "Previous data"
+          },
+          "actions": {
+            "cancel": "Cancel"
+          }
+        },
+        "jsonata": {
+          "title": "JSONata",
+          "description": "JSONata is a query language for JSON data.",
+          "tableUid": {
+            "label": "Table",
+            "placeholder": "Select a table"
+          },
+          "recordId": {
+            "label": "Record",
+            "placeholder": "Select a record"
+          },
+          "data": {
+            "label": "Data",
+            "placeholder": "Enter data"
+          },
+          "expression": {
+            "label": "Expression",
+            "placeholder": "Enter a valid JSONata expression"
+          },
+          "result": {
+            "label": "Result",
+            "placeholder": "The result of evaluating the expression on the data"
+          }
+        }
+      },
+      "page": {
+        "subpage": {
+          "main": {
+            "title": "View {name}",
+            "description": "View the details of the {name}",
+            "actions": {
+              "showDetails": "Show details",
+              "hideDetails": "Hide details"
+            },
+            "summary": "Summary",
+            "details": "Details"
+          }
+        }
+      },
+      "select": {
+        "menuReference": {
+          "actions": {
+            "edit": "Edit"
+          }
+        }
+      },
+      "slideover": {
+        "buttonExpand": {
+          "label": "Show all"
+        },
+        "buttonsSubmit": {
+          "actions": {
+            "cancel": "Cancel",
+            "confirm": "Confirm"
+          }
+        },
+        "information": {
+          "title": "Information",
+          "tabs": {
+            "details": "Details",
+            "modifications": "Modifications"
+          },
+          "fields": {
+            "id": "ID",
+            "name": "Name",
+            "reference": "Reference",
+            "createdBy": "Created by",
+            "createdAt": "Created at",
+            "updatedBy": "Updated by",
+            "updatedAt": "Updated at",
+            "archivedBy": "Archived by",
+            "archivedAt": "Archived at"
+          }
+        },
+        "preview": {
+          "title": "Preview"
+        },
+        "previewPdf": {
+          "title": "Preview PDF"
+        },
+        "title": {
+          "immutable": "This record is protected or you do not have permission to modify it."
+        }
+      },
+      "view": {
+        "columncell": {
+          "badgeselection": {
+            "tooltip": {
+              "clear": "Clear selection"
+            }
+          },
+          "daterange": {
+            "error": {
+              "invalid": "Invalid date"
+            },
+            "label": "Date range"
+          },
+          "datetime": {
+            "label": "Date"
+          },
+          "quickactions": {
+            "tooltip": {
+              "createTasks": "Create tasks",
+              "viewNotes": "View notes"
+            }
+          },
+          "sku": {
+            "label": "{record} SKU",
+            "qrcode": "QR Code"
+          },
+          "textpopover": {
+            "tooltip": {
+              "viewDetails": "View details"
+            }
+          }
+        },
+        "buttonArchived": {
+          "tooltips": {
+            "showArchived": "Show archived",
+            "hideArchived": "Hide archived"
+          }
+        },
+        "buttonCompact": {
+          "tooltips": {
+            "compact": "View compact",
+            "expanded": "View expanded"
+          }
+        },
+        "buttonDelete": {
+          "label": "Delete"
+        },
+        "buttonDownloadDataAsCsv": {
+          "tooltips": {
+            "download": "Download",
+            "noData": "No data to download"
+          }
+        },
+        "buttonFilters": {
+          "label": "Filters"
+        },
+        "buttonGroupBy": {
+          "label": "Group by"
+        },
+        "buttonGroupPagination": {
+          "label": "Page size",
+          "tooltips": {
+            "recordsPerPage": "Records per page",
+            "currentPage": "Current page"
+          }
+        },
+        "buttonSettings": {
+          "label": "Settings",
+          "config": "View settings",
+          "tooltips": {
+            "changeView": "Change view to {view}",
+            "saveView": "Create new view",
+            "unsavedChanges": "Unsaved changes"
+          }
+        },
+        "buttonSort": {
+          "tooltips": {
+            "sort": "Sort by"
+          }
+        },
+        "buttonVisibleColumns": {
+          "label": "Columns"
+        },
+        "detailsMeta": {
+          "createdBy": "Created by",
+          "createdAt": "Created at",
+          "updatedBy": "Updated by",
+          "updatedAt": "Updated at",
+          "archivedBy": "Archived by",
+          "archivedAt": "Archived at"
+        },
+        "toolbar": {
+          "selected": "Selected"
+        },
+        "alert": {
+          "types": {
+            "info": "Information",
+            "warning": "Warning",
+            "error": "Error",
+            "success": "Success"
+          }
+        },
+        "dashboardNavbarItems": {
+          "breadcrumb": {
+            "tooltips": {
+              "immutable": "This record is protected or you do not have permission to modify it."
+            }
+          }
+        }
+      }
+    },
+    "auth": {
+      "apikeys": {
+        "modal": {
+          "title": "Copy API Key",
+          "description": "Copy and save the generated API key securely, it will not be shown again."
+        },
+        "slideover": {
+          "fields": {
+            "name": "Name",
+            "description": "Description",
+            "permission": "Permission"
+          }
+        }
+      },
+      "invitations": {
+        "modalCreate": {
+          "title": "Invite User",
+          "alert": "An email will be sent to the user to create their account.",
+          "toast": {
+            "success": "User invited successfully",
+            "error": "Error inviting user"
+          },
+          "fields": {
+            "email": "Email"
+          }
+        }
+      },
+      "users": {
+        "modalCreate": {
+          "title": "Create User",
+          "alert": "No email confirmation will be sent when creating users directly.",
+          "toast": {
+            "success": "User created successfully",
+            "error": "Error creating user"
+          },
+          "fields": {
+            "name": "Name",
+            "email": "Email",
+            "role": "Role"
+          }
+        },
+        "modalDelete": {
+          "title": "Delete User",
+          "alerts": {
+            "deleteUserAlert": "Are you sure you want to delete your user? This action is irreversible. All your data will be permanently deleted."
+          }
+        }
+      }
+    }
+  },
+  "composables": {
+    "app": {
+      "accordionItems": {
+        "fields": {
+          "select": "Select",
+          "simple": "Quick Creation",
+          "general": "General",
+          "details": "Details",
+          "address": "Address",
+          "billing": "Billing",
+          "payment": "Payment",
+          "taxes": "Taxes",
+          "metrics": "Metrics",
+          "receiver": "Receiver (Customer)",
+          "defaultpayment": "Default Payment Conditions",
+          "delivery": "Delivery",
+          "config": "Config",
+          "attributes": "Attributes",
+          "attributegroups": "Attribute Groups",
+          "fiscaldata": "Fiscal Data",
+          "cash": "Cash",
+          "bank": "Bank",
+          "credit": "Credit",
+          "loan": "Loan",
+          "other": "Other",
+          "approval": "Approval",
+          "trigger": "Trigger",
+          "condition": "Condition",
+          "action": "Action",
+          "data": "Additional Data",
+          "pdfSettings": "PDF Settings",
+          "meta": "Record Information"
+        }
+      }
+    },
+    "auditlogs": {
+      "actions": {
+        "create": "created the record",
+        "update": "updated the record",
+        "delete": "deleted the record"
+      }
+    }
+  },
+  "dashboard": {
+    "recordByField": "{record} by {field}",
+    "chats": {
+      "bar": "Bar chart",
+      "pie": "Pie chart"
+    }
+  },
+  "keywords": {
+    "done": "Done",
+    "undone": "Undone",
+    "salesCatalogs": "Sales catalogs",
+    "procurementCatalogs": "Procurement catalogs",
+    "soon": "Soon",
+    "alpha": "Alpha",
+    "actions": "Actions",
+    "activity": "Activity",
+    "home": "Home",
+    "back": "Go to home",
+    "procurementDirectory": "Suppliers directory",
+    "salesDirectory": "Customers directory",
+    "specifications": "Specifications",
+    "participants": "Participants",
+    "english": "English",
+    "spanish": "Spanish",
+    "action": "Action",
+    "address": "Address | Addresses",
+    "additionalData": "Additional Data",
+    "inbox": "Inbox",
+    "ai": "AI",
+    "visitors": "{count} person active | {count} persons active",
+    "moduleAccess": "Module Access",
+    "appearance": "Appearance",
+    "approval": "Approval",
+    "archivedAt": "Archived at",
+    "archivedBy": "Archived by",
+    "attributes": "Attributes",
+    "billing": "Billing",
+    "blocked": "Blocked",
+    "builtWithNetzo": "Built with Netzo",
+    "cancel": "Cancel",
+    "changes": "Changes",
+    "city": "City",
+    "class": "Class",
+    "code": "Code",
+    "color": "Color",
+    "column": "Column",
+    "columns": "Columns",
+    "conversions": "Conversion | Conversions",
+    "config": "Config",
+    "configuration": "Configuration",
+    "confirm": "Confirm",
+    "contentType": "Content Type",
+    "cost": "Cost",
+    "costs": "Costs",
+    "country": "Country",
+    "credit": "Credit",
+    "currency": "Currency",
+    "currentPage": "Current Page",
+    "currentStock": "Current Stock",
+    "dashboard": "Dashboard",
+    "data": "Data",
+    "dataPrevious": "Previous Data",
+    "date": "Date",
+    "dateEnd": "End Date",
+    "dateStart": "Start Date",
+    "daterange": "Date Range",
+    "default": "Default",
+    "defaultOption": "Default option",
+    "defaultTaxes": "Default Taxes",
+    "delete": "Delete",
+    "description": "Description",
+    "details": "Details",
+    "summary": "Summary",
+    "disable": "Disable",
+    "disabled": "Disabled",
+    "directory": "Directory",
+    "domain": "Domain",
+    "email": "Email",
+    "enable": "Enable",
+    "enabled": "Enabled",
+    "end": "End",
+    "endDate": "End Date",
+    "unit": "Unit",
+    "entityType": "Entity Type",
+    "field": "Field",
+    "file": "File | Files",
+    "filter": "Filter",
+    "filters": "Filters",
+    "fiscaldata": "Fiscal Data",
+    "general": "General",
+    "security": "Security",
+    "groupBy": "Group By",
+    "icon": "Icon",
+    "id": "ID",
+    "slug": "Slug",
+    "logo": "Logo",
+    "image": "Image | Images",
+    "immutable": "Immutable",
+    "item": "Item",
+    "items": "Items",
+    "label": "Label",
+    "language": "Language",
+    "lastPage": "Last Page",
+    "link": "Link",
+    "lists": "List | Lists",
+    "loan": "Loan",
+    "maxDiscount": "Max Discount",
+    "message": "Message",
+    "metrics": "Metrics",
+    "modifications": "Modifications",
+    "name": "Name",
+    "nextPage": "Next Page",
+    "notifications": "Notifications",
+    "optional": "Optional",
+    "owner": "Owner",
+    "page": "Page",
+    "pageSize": "Page size",
+    "payment": "Payment",
+    "permission": "Permission",
+    "phone": "Phone",
+    "pinned": "Pinned",
+    "pinnedAt": "Pinned At",
+    "preferences": "Preferences",
+    "integrations": "Integrations",
+    "previousPage": "Previous Page",
+    "preview": "Preview",
+    "price": "Price",
+    "prices": "Prices",
+    "priority": "Priority",
+    "profile": "Profile",
+    "purchasePrices": "Purchase prices",
+    "quickActions": "Quick Actions",
+    "rank": "Rank",
+    "record": "Record",
+    "recordChanges": "Record Changes",
+    "recordFiles": "Record Files",
+    "recordId": "Record",
+    "recordHistory": "Record History",
+    "recordNotes": "Record Notes",
+    "reference": "Reference",
+    "reportProblem": "Report a problem",
+    "resetFilters": "Reset Filters",
+    "responsible": "Owner",
+    "salesPrices": "Sales prices",
+    "salesUnitUom": "Sales Unit (UoM)",
+    "search": "Search...",
+    "select": "Select",
+    "selectAll": "Select all",
+    "selected": "Selected",
+    "size": "Size",
+    "sku": "SKU",
+    "sort": "Sort by",
+    "stage": "Stage",
+    "state": "State",
+    "status": "Status",
+    "start": "Start",
+    "startDate": "Start Date",
+    "subclass": "Subclass",
+    "subtype": "Subtype",
+    "tableUid": "Table",
+    "taxes": "Taxes",
+    "taxId": "Tax ID",
+    "text": "Text",
+    "title": "Title",
+    "theme": "Theme",
+    "type": "Type",
+    "uid": "UID",
+    "unblocked": "Unblocked",
+    "updatedAt": "Updated At",
+    "updatedBy": "Updated By",
+    "upload": "Upload",
+    "units": "Unit | Units",
+    "geometry": "Geometry",
+    "validFrom": "Valid From",
+    "validTo": "Valid To",
+    "value": "Value",
+    "values": "Values",
+    "variant": "Variant",
+    "variants": "Variants",
+    "viewAll": "View All",
+    "visibility": "Visibility",
+    "zipCode": "Zip Code",
+    "access": "Access",
+    "settings": "Settings",
+    "watermark": "Watermark",
+    "verified": "Verified",
+    "unverified": "Unverified"
+  },
+  "notifications": {},
+  "modules": {
+    "catalogs": {
+      "name": "Master Data",
+      "description": "Centralize and manage core data like customers, suppliers, warehouses, products, services and more."
+    },
+    "finances": {
+      "name": "Finances",
+      "description": "Track income, expenses, budgets, and generate detailed financial reports."
+    },
+    "inventory": {
+      "name": "Inventory & Warehouses",
+      "description": "Monitor stock levels, manage product locations, and streamline storage operations."
+    },
+    "logistics": {
+      "name": "Distribution & Logistics",
+      "description": "Coordinate deliveries and manage shipping to ensure efficient order fulfillment."
+    },
+    "manufacturing": {
+      "name": "Manufacturing",
+      "description": "Plan and control production processes, resources, and lead times."
+    },
+    "pos": {
+      "name": "Point of Sale (POS)",
+      "description": "Handle in-store sales, transactions, and receipts from physical points of sale."
+    },
+    "procurement": {
+      "name": "Procurement",
+      "description": "Manage suppliers, purchase orders, and inventory replenishment with ease."
+    },
+    "quality": {
+      "name": "Quality Assurance (QA)",
+      "description": "Ensure product and service quality through inspections and compliance checks."
+    },
+    "reports": {
+      "name": "Reports",
+      "description": "Generate performance insights and analytics to support better decisions."
+    },
+    "sales": {
+      "name": "Sales (CRM)",
+      "description": "Manage leads, opportunities, and sales pipelines from quote to close."
+    }
+  },
+  "options": {
+    "colors": {
+      "primary": {
+        "red": "Red",
+        "orange": "Orange",
+        "amber": "Amber",
+        "yellow": "Yellow",
+        "lime": "Lime",
+        "green": "Green",
+        "emerald": "Emerald",
+        "teal": "Teal",
+        "cyan": "Cyan",
+        "sky": "Sky",
+        "blue": "Blue",
+        "indigo": "Indigo",
+        "violet": "Violet",
+        "purple": "Purple",
+        "fuchsia": "Fuchsia",
+        "pink": "Pink",
+        "rose": "Rose"
+      },
+      "neutral": {
+        "slate": "Slate",
+        "gray": "Gray",
+        "zinc": "Zinc",
+        "neutral": "Neutral",
+        "stone": "Stone"
+      }
+    },
+    "slideover": {
+      "help": "Database value"
+    }
+  },
+  "pages": {
+    "auth": {
+      "signIn": {
+        "title": "Sign In",
+        "footer": "Don't have an account?",
+        "footerAction": "Sign Up",
+        "form": {
+          "validation": {
+            "invalidEmail": "Invalid email",
+            "minLength": "Must be at least {length} characters"
+          },
+          "actions": {
+            "signIn": "Sign In",
+            "sendMagicLink": "Send access link",
+            "signInWithPasskey": "Sign In with Passkey"
+          }
+        }
+      },
+      "signUp": {
+        "title": "Sign Up",
+        "footer": "Already have an account?",
+        "footerAction": "Sign In",
+        "form": {
+          "name": {
+            "label": "Name"
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "Enter your email"
+          },
+          "validation": {
+            "invalidEmail": "Invalid email",
+            "minLength": "Must be at least {length} characters"
+          },
+          "actions": {
+            "createAccount": "Create account"
+          }
+        }
+      }
+    },
+    "organizations": {
+      "title": "Organizations",
+      "welcome": "Welcome {name}!",
+      "description": "From here you can access the organizations to which you have access.",
+      "new": {
+        "title": "Create an Organization",
+        "description": "Create a new organization to start using Netzo.",
+        "create": "Create Organization"
+      },
+      "~": {
+        "title": "Select an organization",
+        "description": "Hey {name}, please select an organization to continue."
+      },
+      "invitation": {
+        "accept": "Accept Invitation",
+        "reject": "Reject Invitation",
+        "pending": {
+          "title": "Organization Invitation",
+          "description": "You have been invited by {inviterEmail} to join the {organizationName} organization."
+        },
+        "accepted": {
+          "title": "Invitation accepted",
+          "description": "Check your email {email} and click on the access link we sent to sign in."
+        },
+        "rejected": {
+          "title": "Invitation rejected",
+          "description": "You have rejected the invitation to the {organizationName} organization."
+        }
+      },
+      "noOrganizations": {
+        "title": "You don't have any organization",
+        "description": "Create an organization to start using Netzo.",
+        "createOrganization": "Create Organization"
+      }
+    },
+    "modules": {
+      "title": "Modules",
+      "welcome": "Welcome {name}!",
+      "description": "From here you can access the modules to which you have access.",
+      "noModules": {
+        "title": "You don't have access to any Netzo modules",
+        "description": "Contact the administrator to grant you access."
+      }
+    },
+    "error": {
+      "description": "Sorry, but the page you are looking for does not exist.",
+      "title": "Page not found"
+    }
+  },
+  "placeholders": {
+    "filter": "Filter {label}",
+    "search": "Search {label}",
+    "enter": "Enter {label}",
+    "empty": {
+      "data": "No data found",
+      "files": "No file found | No files found",
+      "notes": "No note found | No notes found",
+      "notifications": "No notification found | No notifications found",
+      "pdf": "No PDF found | No PDFs found",
+      "records": "No record found | No records found"
+    }
+  },
+  "prompts": {
+    "archive": "Archiving records will prevent further changes and will not allow them to be selected in future forms. This action can only be undone by an administrator. Are you sure you want to proceed?",
+    "immutable": {
+      "set": "Protecting records will prevent further changes. This action can only be undone by an administrator. Are you sure you want to proceed?",
+      "unset": "Unprotecting records will allow further changes. Are you sure you want to proceed?"
+    },
+    "delete": "Deleting records will permanently remove them from the system. This action can't be undone. Are you sure you want to proceed?",
+    "status": "By changing the status to {status}, records will be protected preventing further changes. This action can only be undone by an administrator. Are you sure you want to proceed?"
+  },
+  "admin": {
+    "roles": {
+      "admin": {
+        "label": "Admin",
+        "description": "Full access to all features and settings."
+      },
+      "owner": {
+        "label": "Owner",
+        "description": "Creator of the organization with full access to all features and settings."
+      },
+      "user": {
+        "label": "User",
+        "description": "Limited access to core features and settings."
+      },
+      "edit": {
+        "label": "Edit",
+        "description": "Can edit records and perform basic operations."
+      },
+      "view": {
+        "label": "View",
+        "description": "Can view records and perform basic operations."
+      }
+    },
+    "banned": {
+      "label": "Banned"
+    }
+  },
+  "settings": {
+    "appearance": {
+      "label": "Appearance",
+      "system": "System",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "language": "Language",
+    "theme": {
+      "label": "Theme",
+      "primary": "Primary",
+      "neutral": "Neutral"
+    }
+  },
+  "tables": {
+    "users": {
+      "name": "User | Users",
+      "description": ""
+    },
+    "sessions": {
+      "name": "Session | Sessions",
+      "description": "Sessions represent active authenticated users."
+    },
+    "accounts": {
+      "name": "Account | Accounts",
+      "description": ""
+    },
+    "verifications": {
+      "name": "Verification | Verifications",
+      "description": ""
+    },
+    "apikeys": {
+      "name": "API Key | API Keys",
+      "description": ""
+    },
+    "jwkss": {
+      "name": "JWKS | JWKS",
+      "description": ""
+    },
+    "organizations": {
+      "name": "Organization | Organizations",
+      "description": ""
+    },
+    "members": {
+      "name": "Member | Members",
+      "description": ""
+    },
+    "invitations": {
+      "name": "Invitation | Invitations",
+      "description": ""
+    },
+    "passkeys": {
+      "name": "Passkey | Passkeys",
+      "description": "Passkeys are a secure way to authenticate users without passwords."
+    },
+    "barcodes": {
+      "name": "Barcode | Barcodes",
+      "description": ""
+    },
+    "bundles": {
+      "name": "Bundle | Bundles",
+      "description": ""
+    },
+    "bundlecategories": {
+      "name": "Category | Categories",
+      "description": ""
+    },
+    "bundleitems": {
+      "name": "Item | Items",
+      "description": ""
+    },
+    "customers": {
+      "name": "Customer | Customers",
+      "description": ""
+    },
+    "customerbranches": {
+      "name": "Branch | Branches",
+      "description": ""
+    },
+    "customercontacts": {
+      "name": "Contact | Contacts",
+      "description": ""
+    },
+    "customerorganizations": {
+      "name": "Organization | Organizations",
+      "description": ""
+    },
+    "costlists": {
+      "name": "Cost list | Cost lists",
+      "description": ""
+    },
+    "costlistitems": {
+      "name": "Item | Items",
+      "description": ""
+    },
+    "pricelists": {
+      "name": "Price list | Price lists",
+      "description": ""
+    },
+    "pricelistitems": {
+      "name": "Item | Items",
+      "description": ""
+    },
+    "products": {
+      "name": "Product | Products",
+      "description": ""
+    },
+    "productcategories": {
+      "name": "Category | Categories",
+      "description": ""
+    },
+    "productvariants": {
+      "name": "Product variant | Product variants",
+      "description": ""
+    },
+    "services": {
+      "name": "Service | Services",
+      "description": ""
+    },
+    "servicecategories": {
+      "name": "Category | Categories",
+      "description": ""
+    },
+    "servicevariants": {
+      "name": "Service variant | Service variants",
+      "description": ""
+    },
+    "suppliers": {
+      "name": "Supplier | Suppliers",
+      "description": ""
+    },
+    "supplierbranches": {
+      "name": "Branch | Branches",
+      "description": ""
+    },
+    "suppliercontacts": {
+      "name": "Contact | Contacts",
+      "description": ""
+    },
+    "supplierorganizations": {
+      "name": "Organization | Organizations",
+      "description": ""
+    },
+    "warehouses": {
+      "name": "Warehouse | Warehouses",
+      "description": ""
+    },
+    "warehousezones": {
+      "name": "Zone | Zones",
+      "description": ""
+    },
+    "warehouselocations": {
+      "name": "Location | Locations",
+      "description": ""
+    },
+    "constants": {
+      "name": "Constant | Constants",
+      "description": ""
+    },
+    "modules": {
+      "name": "Module | Modules",
+      "description": ""
+    },
+    "tables": {
+      "name": "Table | Tables",
+      "description": ""
+    },
+    "attributes": {
+      "name": "Attribute | Attributes",
+      "description": ""
+    },
+    "attributeitems": {
+      "name": "Option | Options",
+      "description": ""
+    },
+    "fields": {
+      "name": "Custom field | Custom fields",
+      "description": ""
+    },
+    "entities": {
+      "name": "Entity | Entities",
+      "description": ""
+    },
+    "measurementunits": {
+      "name": "Measurement unit | Measurement units",
+      "description": ""
+    },
+    "moduleusers": {
+      "name": "Module user | Module users",
+      "description": ""
+    },
+    "options": {
+      "name": "Option | Options",
+      "description": ""
+    },
+    "organizationmodules": {
+      "name": "Organization module | Organization modules",
+      "description": ""
+    },
+    "views": {
+      "name": "View | Views",
+      "description": ""
+    },
+    "banks": {
+      "name": "Bank | Banks",
+      "description": ""
+    },
+    "financialaccounts": {
+      "name": "Financial account | Financial accounts",
+      "description": ""
+    },
+    "transactions": {
+      "name": "Transaction | Transactions",
+      "description": ""
+    },
+    "auditlogs": {
+      "name": "Audit log | Audit logs",
+      "description": ""
+    },
+    "events": {
+      "name": "Event | Events",
+      "description": ""
+    },
+    "notifications": {
+      "name": "Notification | Notifications",
+      "description": ""
+    },
+    "rules": {
+      "name": "Rule | Rules",
+      "description": ""
+    },
+    "factories": {
+      "name": "Factory | Factories",
+      "description": ""
+    },
+    "manufacturingboms": {
+      "name": "Bill of materials | Bills of materials",
+      "description": ""
+    },
+    "manufacturingbomitems": {
+      "name": "Bill of materials item | Bills of materials items",
+      "description": ""
+    },
+    "manufacturingorders": {
+      "name": "Manufacturing order | Manufacturing orders",
+      "description": ""
+    },
+    "manufacturingorderitems": {
+      "name": "Manufacturing order item | Manufacturing order items",
+      "description": ""
+    },
+    "manufacturingschedules": {
+      "name": "Manufacturing schedule | Manufacturing schedules",
+      "description": ""
+    },
+    "manufacturingoperations": {
+      "name": "Manufacturing operation | Manufacturing operations",
+      "description": ""
+    },
+    "manufacturingresources": {
+      "name": "Manufacturing resource | Manufacturing resources",
+      "description": ""
+    },
+    "manufacturingroutes": {
+      "name": "Manufacturing route | Manufacturing routes",
+      "description": ""
+    },
+    "manufacturingrouteoperations": {
+      "name": "Manufacturing route operation | Manufacturing route operations",
+      "description": ""
+    },
+    "workcenters": {
+      "name": "Work center | Work centers",
+      "description": ""
+    },
+    "workcentercapabilities": {
+      "name": "Work center capability | Work center capabilities",
+      "description": ""
+    },
+    "purchaseorders": {
+      "name": "Purchase order | Purchase orders",
+      "description": ""
+    },
+    "purchaseorderitems": {
+      "name": "Purchase order item | Purchase order items",
+      "description": ""
+    },
+    "qualitycontrols": {
+      "name": "Quality control | Quality controls",
+      "description": ""
+    },
+    "qualitycontrolitems": {
+      "name": "Quality control item | Quality control items",
+      "description": ""
+    },
+    "qualitycontrolresults": {
+      "name": "Quality control result | Quality control results",
+      "description": ""
+    },
+    "qualitycontrolresultitems": {
+      "name": "Quality control result item | Quality control result items",
+      "description": ""
+    },
+    "qualitycontrolroutines": {
+      "name": "Quality control routine | Quality control routines",
+      "description": ""
+    },
+    "qualitycontrolroutineitems": {
+      "name": "Quality control routine item | Quality control routine items",
+      "description": ""
+    },
+    "activities": {
+      "name": "Activity | Activities",
+      "description": ""
+    },
+    "campaigns": {
+      "name": "Campaign | Campaigns",
+      "description": ""
+    },
+    "deals": {
+      "name": "Deal | Deals",
+      "description": ""
+    },
+    "leads": {
+      "name": "Lead | Leads",
+      "description": ""
+    },
+    "quotes": {
+      "name": "Quote | Quotes",
+      "description": ""
+    },
+    "quoteitems": {
+      "name": "Quote item | Quote items",
+      "description": ""
+    },
+    "salesorders": {
+      "name": "Sales order | Sales orders",
+      "description": ""
+    },
+    "salesinquiries": {
+      "name": "Inquiry | Inquiries",
+      "description": ""
+    },
+    "salesorderitems": {
+      "name": "Sales order item | Sales order items",
+      "description": ""
+    },
+    "subscriptions": {
+      "name": "Subscription | Subscriptions",
+      "description": ""
+    },
+    "subscriptionitems": {
+      "name": "Subscription item | Subscription items",
+      "description": ""
+    },
+    "files": {
+      "name": "File | Files",
+      "description": ""
+    },
+    "notes": {
+      "name": "Note | Notes",
+      "description": ""
+    },
+    "tasks": {
+      "name": "Task | Tasks",
+      "description": ""
+    }
+  },
+  "toasts": {
+    "copied": {
+      "success": "Copied to clipboard",
+      "error": "Error copying to clipboard"
+    },
+    "clear": {
+      "selection": "Clear selection",
+      "error": "Error clearing selection"
+    },
+    "download": {
+      "success": "{record} downloaded successfully",
+      "error": "Error downloading {record}"
+    },
+    "users": {
+      "delete": "User deleted | Users Deleted"
+    },
+    "archive": {
+      "error": "Error archiving record | Error archiving records",
+      "success": "Record archived successfully | Records archived successfully"
+    },
+    "unarchive": {
+      "error": "Error unarchiving record | Error unarchiving records",
+      "success": "Record unarchived successfully | Records unarchived successfully"
+    },
+    "block": {
+      "error": "Error protecting record | Error protecting records",
+      "success": "Record protection successful | Records protection successful"
+    },
+    "unblock": {
+      "error": "Error unprotecting record | Error unprotecting records",
+      "success": "Record unprotection successful | Records unprotection successful"
+    },
+    "generatedPdf": {
+      "success": "PDF generated successfully",
+      "error": "Error generating PDF"
+    },
+    "validation": {
+      "error": {
+        "title": "{count} validation error | {count} validation errors",
+        "message": "Review the fields marked in red and try again."
+      }
+    }
+  },
+  "tooltips": {
+    "buttonMenuInfo": "View documentation"
+  },
+  "views": {
+    "calendar": "Calendar",
+    "cards": "Cards",
+    "table": "Table",
+    "kanban": "Kanban",
+    "list": "List"
+  }
+}

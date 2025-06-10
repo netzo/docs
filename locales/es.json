@@ -1,0 +1,1514 @@
+{
+  "actions": {
+    "add": "Agregar {label}",
+    "analyseWith": "Analizar con {label}",
+    "archive": "Archivar {label}",
+    "block": "Proteger {label}",
+    "call": "Llamar {label}",
+    "cancel": "Cancelar {label}",
+    "clear": {
+      "all": "Limpiar todo",
+      "selection": "Limpiar selección"
+    },
+    "confirm": "Confirmar {label}",
+    "copy": {
+      "default": "Copiar {label}",
+      "id": "Copiar {label} ID | Copiar {label} IDs",
+      "table": "Copiar {name} | Copiar {name}s",
+      "uid": "Copiar {label} referencia | Copiar {label} referencias",
+      "url": "Copiar {label} URL | Copiar {label} URLs"
+    },
+    "create": "Crear {label}",
+    "delete": "Eliminar {label}",
+    "download": "Descargar {label}",
+    "download_csv": "Descargar CSV {documento}",
+    "download_pdf": "Descargar PDF {documento}",
+    "duplicate": "Duplicar {label}",
+    "edit": "Editar {label}",
+    "showHistory": "Ver historial",
+    "filters": {
+      "reset": "Reiniciar filtros"
+    },
+    "generate": "Generar {label}",
+    "invite": "Invitar usuario | Invitar usuarios",
+    "insert": "Insertar {label}",
+    "new_masculine": "Nuevo {label}",
+    "new_feminine": "Nueva {label}",
+    "notifications": {
+      "subscribe": "Suscribirse a notificaciones",
+      "unsubscribe": "Desuscribirse de notificaciones",
+      "unsubscribed": "No suscrito",
+      "subscribed": "Suscrito"
+    },
+    "openInNewWindow": "Abrir en nueva ventana",
+    "pagination": {
+      "next": "Siguiente página",
+      "previous": "Página anterior"
+    },
+    "pdf": {
+      "generate": "Generar PDF {documento}",
+      "regenerate": "Regenerar PDF {documento}"
+    },
+    "pin": "Fijar {label}",
+    "preview": "Vista previa {label}",
+    "private": "Hacer {label} privado",
+    "public": "Hacer {label} público",
+    "quickActions": "Acciones rápidas",
+    "markAs": "Marcar como {label}",
+    "register": "Registrar {label}",
+    "reload": "Recargar {label}",
+    "reset": "Restablecer {label}",
+    "resync": "Sincronizar {label}",
+    "revoke": "Revocar {label}",
+    "save": "Guardar {label}",
+    "send": "Enviar {label}",
+    "select": "Seleccionar {label}",
+    "selectAll": "Seleccionar todos",
+    "share": "Compartir {label}",
+    "show": "Mostrar {label}",
+    "showAll": "Mostrar todos",
+    "showArchived": "Mostrar archivados",
+    "showDetails": "Mostrar detalles",
+    "translate": "Traducir",
+    "unarchive": "Desarchivar {label}",
+    "unblock": "Desproteger {label}",
+    "unpin": "Desfijar {label}",
+    "update": "Actualizar {label}",
+    "upload": "Cargar {label}",
+    "view": "Ver {label}",
+    "open": "Abrir {label}",
+    "view_changes": "Ver cambios",
+    "open_in_google_maps": "Abrir en Google Maps",
+    "signIn": "Iniciar sesión",
+    "signOut": "Cerrar sesión",
+    "showDatetime": "Mostrar fecha y hora"
+  },
+  "alerts": {
+    "customers": {
+      "select": "Selecciona un cliente para continuar."
+    },
+    "defaults": {
+      "info": "Puedes establecer los campos personalizados más adelante."
+    },
+    "files": {
+      "private": "El archivo es privado, solo los usuarios autorizados pueden verlo.",
+      "public": "El archivo es público, cualquiera con el enlace puede verlo."
+    },
+    "users": {
+      "create": "No se enviará un email de confirmación al crear usuarios a través de este formulario.",
+      "delete": "Tu usuario ha sido eliminado. Cerrando sesión..."
+    },
+    "promptAlert": "Por favor escribe la palabra \"{word}\" para confirmar",
+    "createSucceeded": "Registro creado correctamente",
+    "duplicateSucceeded": "Registro duplicado correctamente",
+    "createFailed": "Error al crear el registro",
+    "updateSucceeded": "Registro actualizado correctamente",
+    "updateFailed": "Error al actualizar el registro",
+    "uploadSucceeded": "Archivo subido correctamente",
+    "uploadFailed": "Error al subir el archivo",
+    "magicLinkSent": "Enlace de acceso enviado a tu email",
+    "emailSent": "Email enviado",
+    "userCreated": "Usuario creado con éxito",
+    "userBanned": "Usuario bloqueado con éxito",
+    "updatedProfile": "Perfil actualizado con éxito",
+    "failedToUpdateProfile": "Error al actualizar el perfil",
+    "anErrorOccurred": "Ocurrió un error. Inténtalo nuevamente más tarde.",
+    "signedIn": "Sesión iniciada",
+    "signedOut": "Sesión cerrada"
+  },
+  "components": {
+    "app": {
+      "button": {
+        "copy": "Copiar",
+        "refresh": {
+          "tooltip": "Actualizar información",
+          "toast": {
+            "success": {
+              "title": "Actualización exitosa",
+              "description": "La información ha sido actualizada correctamente"
+            },
+            "error": {
+              "title": "Error al actualizar la información",
+              "description": "Ha ocurrido un error al actualizar la información"
+            }
+          }
+        }
+      },
+      "dropdown": {
+        "menuUser": {
+          "navigation": {
+            "configuration": "Configuración",
+            "theme": {
+              "label": "Tema",
+              "primary": "Primario",
+              "neutral": "Neutral"
+            },
+            "appearance": {
+              "label": "Apariencia",
+              "light": "Claro",
+              "dark": "Oscuro",
+              "system": "Sistema"
+            },
+            "language": "Idioma",
+            "signOut": "Cerrar sesión"
+          }
+        }
+      },
+      "form": {
+        "fieldsets": {
+          "concept": {
+            "label": "Concept",
+            "sku": "SKU",
+            "unitSales": "Unidad de venta",
+            "unitPurchase": "Unidad de compra",
+            "unitManufacturing": "Unidad de fabricación",
+            "unitInventory": "Unidad de inventario",
+            "unitService": "Unidad de servicio",
+            "unitOther": "Unidad de otro",
+            "quantity": "Cantidad",
+            "unitPrice": "Precio unitario",
+            "discount": "Descuento",
+            "subtotal": "Subtotal",
+            "taxes": "Impuestos",
+            "total": "Total"
+          },
+          "data": {
+            "label": "Datos",
+            "default": {
+              "label": "Predeterminado",
+              "tooltip": "Seleccionar valores predeterminados"
+            },
+            "tabs": {
+              "form": "Formulario",
+              "json": "JSON"
+            }
+          },
+          "delivery": {
+            "tabs": {
+              "customer": "Cliente",
+              "customerbranch": "Sucursal"
+            },
+            "incoterm": "Términos de entrega",
+            "schedule": "Programación de entrega",
+            "deliveryDate": "Fecha de entrega",
+            "details": "Detalles de entrega",
+            "deliveryAddress": "Dirección de entrega",
+            "alert": {
+              "address": "Para actualizar la dirección, es necesario editar la sucursal o la dirección fiscal."
+            }
+          },
+          "itemTaxesMX": {
+            "tabs": {
+              "transfers": "Traslados",
+              "retentions": "Retenciones"
+            },
+            "taxes": {
+              "transfer": "Traslado",
+              "retention": "Retención",
+              "iva": "IVA",
+              "ieps": "IEPS",
+              "isr": "ISR"
+            }
+          },
+          "payment": {
+            "satCfdiUse": "Uso del CFDI",
+            "paymentMethod": "Método de pago",
+            "paymentTerm": "Término de pago",
+            "paymentCondition": "Condición de pago",
+            "paymentCurrency": "Moneda de pago",
+            "currency": "Moneda",
+            "exchangeRate": "Tipo de cambio"
+          },
+          "pdfSettings": {
+            "label": "Configuración de PDF",
+            "details": "Generar versión detallada",
+            "images": "Generar versión con imágenes",
+            "watermark": "Generar versión con marca de agua",
+            "pageSize": "Tamaño de página"
+          },
+          "phone": {
+            "label": "Teléfono",
+            "country": "Código de país",
+            "number": "Número de teléfono",
+            "extension": "Extensión"
+          },
+          "taxesMX": {
+            "label": "Impuestos",
+            "transfers": "Traslados",
+            "retentions": "Retenciones",
+            "object": "Objeto de impuesto",
+            "satKey": "Clave SAT",
+            "satUnit": "Unidad SAT",
+            "vat": "IVA",
+            "ieps": "IEPS",
+            "isr": "ISR",
+            "alert": {
+              "satKey": "Item sin objeto de impuesto. Los impuestos están deshabilitados y no se aplicarán."
+            }
+          },
+          "field": {
+            "hintTooltip": "Haz click para mostrar información sobre el campo."
+          }
+        }
+      },
+      "filters": {
+        "dateRange": {
+          "last7Days": "Últimos 7 días",
+          "last14Days": "Últimos 14 días",
+          "last30Days": "Últimos 30 días",
+          "last3Months": "Últimos 3 meses",
+          "last6Months": "Últimos 6 meses",
+          "lastYear": "Último año"
+        }
+      },
+      "input": {
+        "files": {
+          "placeholder": "Carga archivos",
+          "actions": {
+            "remove": "Haz click para eliminar la imagen"
+          }
+        },
+        "password": {
+          "requirements": {
+            "minLength": "Debe tener al menos {length} caracteres",
+            "atLeast1Number": "Al menos 1 número",
+            "atLeast1LowercaseLetter": "Al menos 1 letra minúscula",
+            "atLeast1UppercaseLetter": "Al menos 1 letra mayúscula",
+            "mustContain": "Debe contener:",
+            "met": " - Requisito cumplido",
+            "notMet": " - Requisito no cumplido"
+          },
+          "strength": {
+            "none": "Ingresa una contraseña",
+            "weak": "Contraseña débil",
+            "medium": "Contraseña media",
+            "strong": "Contraseña fuerte"
+          },
+          "actions": {
+            "show": "Mostrar contraseña",
+            "hide": "Ocultar contraseña"
+          }
+        },
+        "strings": {
+          "placeholder": "Ingresa una nueva nota"
+        }
+      },
+      "modal": {
+        "promptActions": {
+          "title": "Acciones rápidas"
+        },
+        "shareFile": {
+          "title": "Compartir archivo",
+          "description": "Share the file with the following link:",
+          "actions": {
+            "copy": "Copiar URL",
+            "share": "Compartir"
+          }
+        },
+        "changes": {
+          "title": "Cambios",
+          "description": "Cambios al registro",
+          "fields": {
+            "column": "Columna",
+            "data": "Datos",
+            "dataPrevious": "Datos anteriores"
+          },
+          "actions": {
+            "cancel": "Cancelar"
+          }
+        },
+        "jsonata": {
+          "title": "JSONata",
+          "description": "JSONata es un lenguaje de consulta para datos JSON.",
+          "tableUid": {
+            "label": "Tabla",
+            "placeholder": "Selecciona una tabla"
+          },
+          "recordId": {
+            "label": "Registro",
+            "placeholder": "Selecciona un registro"
+          },
+          "data": {
+            "label": "Datos",
+            "placeholder": "Ingresa datos"
+          },
+          "expression": {
+            "label": "Expression",
+            "placeholder": "Ingresa una expresión JSONata válida"
+          },
+          "result": {
+            "label": "Result",
+            "placeholder": "El resultado de evaluar la expresión en los datos"
+          }
+        }
+      },
+      "page": {
+        "subpage": {
+          "main": {
+            "title": "View {name}",
+            "description": "View the details of the {name}",
+            "actions": {
+              "showDetails": "Mostrar detalles",
+              "hideDetails": "Ocultar detalles"
+            },
+            "summary": "Resumen",
+            "details": "Detalles"
+          }
+        }
+      },
+      "select": {
+        "menuReference": {
+          "actions": {
+            "edit": "Editar"
+          }
+        }
+      },
+      "slideover": {
+        "buttonExpand": {
+          "label": "Mostrar todos"
+        },
+        "buttonsSubmit": {
+          "actions": {
+            "cancel": "Cancelar",
+            "confirm": "Confirmar"
+          }
+        },
+        "information": {
+          "title": "Information",
+          "tabs": {
+            "details": "Detalles",
+            "modifications": "Modificaciones"
+          },
+          "fields": {
+            "id": "ID",
+            "name": "Nombre",
+            "reference": "Referencia",
+            "createdBy": "Creado por",
+            "createdAt": "Creado en",
+            "updatedBy": "Actualizado por",
+            "updatedAt": "Actualizado en",
+            "archivedBy": "Archivado por",
+            "archivedAt": "Archivado en"
+          }
+        },
+        "preview": {
+          "title": "Vista previa"
+        },
+        "previewPdf": {
+          "title": "Vista previa en PDF"
+        },
+        "title": {
+          "immutable": "Este registro está protegido o no tienes permisos para modificarlo."
+        }
+      },
+      "view": {
+        "columncell": {
+          "badgeselection": {
+            "tooltip": {
+              "clear": "Limpiar selección"
+            }
+          },
+          "daterange": {
+            "error": {
+              "invalid": "Fecha inválida"
+            },
+            "label": "Rango de fechas"
+          },
+          "datetime": {
+            "label": "Fecha y hora"
+          },
+          "quickactions": {
+            "tooltip": {
+              "createTasks": "Crear tareas",
+              "viewNotes": "Ver notas"
+            }
+          },
+          "sku": {
+            "label": "{record} SKU",
+            "qrcode": "Código QR"
+          },
+          "textpopover": {
+            "tooltip": {
+              "viewDetails": "Ver detalles"
+            }
+          }
+        },
+        "buttonArchived": {
+          "tooltips": {
+            "showArchived": "Mostrar archivados",
+            "hideArchived": "Ocultar archivados"
+          }
+        },
+        "buttonCompact": {
+          "tooltips": {
+            "compact": "Ver compacto",
+            "expanded": "Ver expandido"
+          }
+        },
+        "buttonDelete": {
+          "label": "Eliminar"
+        },
+        "buttonDownloadDataAsCsv": {
+          "tooltips": {
+            "download": "Descargar",
+            "noData": "No hay datos para descargar"
+          }
+        },
+        "buttonFilters": {
+          "label": "Filtros"
+        },
+        "buttonGroupBy": {
+          "label": "Agrupar por"
+        },
+        "buttonGroupPagination": {
+          "label": "Page size",
+          "tooltips": {
+            "recordsPerPage": "Registros por página",
+            "currentPage": "Página actual"
+          }
+        },
+        "buttonSettings": {
+          "label": "Configuración",
+          "config": "Ver configuración",
+          "tooltips": {
+            "changeView": "Cambiar vista a {view}",
+            "saveView": "Crear nueva vista",
+            "unsavedChanges": "Cambios sin guardar"
+          }
+        },
+        "buttonSort": {
+          "tooltips": {
+            "sort": "Ordenar por"
+          }
+        },
+        "buttonVisibleColumns": {
+          "label": "Columnas"
+        },
+        "detailsMeta": {
+          "createdBy": "Creado por",
+          "createdAt": "Creado en",
+          "updatedBy": "Actualizado por",
+          "updatedAt": "Actualizado en",
+          "archivedBy": "Archivado por",
+          "archivedAt": "Archivado en"
+        },
+        "toolbar": {
+          "selected": "Seleccionados"
+        },
+        "alert": {
+          "types": {
+            "info": "Información",
+            "warning": "Advertencia",
+            "error": "Error",
+            "success": "Éxito"
+          }
+        },
+        "dashboardNavbarItems": {
+          "breadcrumb": {
+            "tooltips": {
+              "immutable": "Este registro está protegido o no tienes permisos para modificarlo."
+            }
+          }
+        }
+      }
+    },
+    "auth": {
+      "apikeys": {
+        "modal": {
+          "title": "Copiar clave API",
+          "description": "Copia y guarda la clave API generada de forma segura, no se mostrará nuevamente."
+        },
+        "slideover": {
+          "fields": {
+            "name": "Nombre",
+            "description": "Descripción",
+            "permission": "Permiso"
+          }
+        }
+      },
+      "invitations": {
+        "modalCreate": {
+          "title": "Invitar usuario",
+          "alert": "Se enviará un email al usuario para crear su cuenta.",
+          "toast": {
+            "success": "Usuario invitado exitosamente",
+            "error": "Error al invitar usuario"
+          },
+          "fields": {
+            "email": "Email"
+          }
+        }
+      },
+      "users": {
+        "modalCreate": {
+          "title": "Crear usuario",
+          "alert": "No se enviará confirmación por email al crear usuarios directamente.",
+          "toast": {
+            "success": "Usuario creado exitosamente",
+            "error": "Error al crear usuario"
+          },
+          "fields": {
+            "name": "Nombre",
+            "email": "Email",
+            "role": "Rol"
+          }
+        },
+        "modalDelete": {
+          "title": "Eliminar usuario",
+          "alerts": {
+            "deleteUserAlert": "¿Estás seguro de que quieres eliminar tu usuario? Esta acción es irreversible. Todos tus datos serán eliminados permanentemente."
+          }
+        }
+      }
+    }
+  },
+  "composables": {
+    "app": {
+      "accordionItems": {
+        "fields": {
+          "simple": "Creación rápida",
+          "general": "General",
+          "details": "Detalles",
+          "address": "Dirección",
+          "billing": "Facturación",
+          "payment": "Pago",
+          "taxes": "Impuestos",
+          "metrics": "Métricas",
+          "receiver": "Receptor (Cliente)",
+          "defaultpayment": "Condiciones de Pago Predeterminadas",
+          "delivery": "Envío",
+          "config": "Configuración",
+          "attributes": "Atributos",
+          "attributegroups": "Grupos de Atributos",
+          "fiscaldata": "Datos Fiscales",
+          "cash": "Efectivo",
+          "bank": "Banco",
+          "credit": "Crédito",
+          "loan": "Préstamo",
+          "other": "Otros",
+          "approval": "Aprobación",
+          "trigger": "Disparador",
+          "condition": "Condición",
+          "action": "Acción",
+          "data": "Datos Adicionales",
+          "pdfSettings": "Configuración de PDF",
+          "meta": "Información del Registro"
+        }
+      }
+    },
+    "auditlogs": {
+      "actions": {
+        "create": "creó el registro",
+        "update": "actualizó el registro",
+        "delete": "eliminó el registro"
+      }
+    }
+  },
+  "dashboard": {
+    "recordByField": "{record} por {field}",
+    "chats": {
+      "bar": "Gráfico de barras",
+      "pie": "Gráfico de sectores"
+    }
+  },
+  "keywords": {
+    "done": "Resuelto",
+    "undone": "No resuelto",
+    "salesCatalogs": "Catálogos de ventas",
+    "procurementCatalogs": "Catálogos de compras",
+    "soon": "Pronto",
+    "alpha": "Alpha",
+    "actions": "Acciones",
+    "activity": "Actividad",
+    "home": "Inicio",
+    "back": "Ir al inicio",
+    "procurementDirectory": "Directorio de proveedores",
+    "salesDirectory": "Directorio de clientes",
+    "specifications": "Especificaciones",
+    "participants": "Participantes",
+    "english": "Inglés",
+    "spanish": "Español",
+    "action": "Acción",
+    "address": "Dirección | Direcciones",
+    "additionalData": "Datos Adicionales",
+    "inbox": "Bandeja de entrada",
+    "ai": "IA",
+    "visitors": "{count} persona activa | {count} personas activas",
+    "moduleAccess": "Acceso a módulos",
+    "appearance": "Apariencia",
+    "approval": "Aprobación",
+    "archivedAt": "Archivado en",
+    "archivedBy": "Archivado por",
+    "attributes": "Atributos",
+    "billing": "Facturación",
+    "blocked": "Protegido",
+    "builtWithNetzo": "Creado con Netzo",
+    "cancel": "Cancelar",
+    "changes": "Cambios",
+    "city": "Ciudad",
+    "class": "Clase",
+    "code": "Código",
+    "color": "Color",
+    "column": "Columna",
+    "columns": "Columnas",
+    "conversions": "Conversión | Conversiones",
+    "config": "Configuración",
+    "configuration": "Configuración",
+    "confirm": "Confirmar",
+    "contentType": "Tipo de Contenido",
+    "cost": "Coste",
+    "costs": "Costes",
+    "country": "País",
+    "credit": "Crédito",
+    "currency": "Moneda",
+    "currentPage": "Página actual",
+    "currentStock": "Stock actual",
+    "dashboard": "Dashboard",
+    "data": "Datos",
+    "dataPrevious": "Datos anteriores",
+    "date": "Fecha",
+    "dateEnd": "Fecha de fin",
+    "dateStart": "Fecha de inicio",
+    "daterange": "Rango de fechas",
+    "default": "Predeterminado",
+    "defaultOption": "Opción predeterminada",
+    "defaultTaxes": "Impuestos predeterminados",
+    "delete": "Eliminar",
+    "description": "Descripción",
+    "details": "Detalles",
+    "summary": "Resumen",
+    "disable": "Deshabilitar",
+    "disabled": "Deshabilitado",
+    "directory": "Directorio",
+    "domain": "Dominio",
+    "email": "Email",
+    "enable": "Habilitar",
+    "enabled": "Habilitado",
+    "end": "Fin",
+    "endDate": "Fecha de fin",
+    "unit": "Unidad",
+    "entityType": "Tipo de entidad",
+    "field": "Campo",
+    "file": "Archivo | Archivos",
+    "filter": "Filtro",
+    "filters": "Filtros",
+    "fiscaldata": "Datos fiscales",
+    "general": "General",
+    "security": "Seguridad",
+    "groupBy": "Agrupar por",
+    "icon": "Icono",
+    "id": "ID",
+    "slug": "Slug",
+    "logo": "Logo",
+    "image": "Imagen | Imágenes",
+    "immutable": "Inmutable",
+    "item": "Articulo",
+    "items": "Articulos",
+    "label": "Etiqueta",
+    "language": "Idioma",
+    "lastPage": "Última página",
+    "link": "Enlace",
+    "lists": "Lista | Listas",
+    "loan": "Préstamo",
+    "maxDiscount": "Max Descuento",
+    "message": "Mensaje",
+    "metrics": "Métricas",
+    "modifications": "Modificaciones",
+    "name": "Nombre",
+    "nextPage": "Siguiente página",
+    "notifications": "Notificaciones",
+    "optional": "Opcional",
+    "owner": "Propietario",
+    "page": "Página",
+    "pageSize": "Tamaño de página",
+    "payment": "Pago",
+    "permission": "Permiso",
+    "phone": "Teléfono",
+    "pinned": "Fijado",
+    "pinnedAt": "Fijado el",
+    "preferences": "Preferencias",
+    "integrations": "Integraciones",
+    "previousPage": "Página anterior",
+    "preview": "Vista previa",
+    "price": "Precio",
+    "prices": "Precios",
+    "priority": "Prioridad",
+    "profile": "Perfil",
+    "purchasePrices": "Precios de compra",
+    "quickActions": "Acciones rápidas",
+    "rank": "Rango",
+    "record": "Registro",
+    "recordChanges": "Cambios del registro",
+    "recordFiles": "Archivos del registro",
+    "recordId": "ID del registro",
+    "recordHistory": "Historial del registro",
+    "recordNotes": "Notas del registro",
+    "reference": "Referencia",
+    "reportProblem": "Reportar un problema",
+    "resetFilters": "Restablecer filtros",
+    "responsible": "Propietario",
+    "salesPrices": "Precios de venta",
+    "salesUnitUom": "Unidad de venta (UoM)",
+    "search": "Buscar...",
+    "select": "Seleccionar",
+    "selectAll": "Seleccionar todo",
+    "selected": "Seleccionado",
+    "size": "Tamaño",
+    "sku": "SKU",
+    "sort": "Ordenar por",
+    "stage": "Etapa",
+    "state": "Estado",
+    "status": "Estado",
+    "start": "Inicio",
+    "startDate": "Fecha de inicio",
+    "subclass": "Subclase",
+    "subtype": "Subtipo",
+    "tableUid": "Table",
+    "taxes": "Impuestos",
+    "taxId": "ID del impuesto",
+    "text": "Texto",
+    "title": "Título",
+    "theme": "Tema",
+    "type": "Tipo",
+    "uid": "UID",
+    "unblocked": "Desprotegido",
+    "updatedAt": "Actualizado en",
+    "updatedBy": "Actualizado por",
+    "upload": "Subir",
+    "units": "Unidad | Unidades",
+    "geometry": "Geometría",
+    "validFrom": "Válido desde",
+    "validTo": "Válido hasta",
+    "value": "Valor",
+    "values": "Valores",
+    "variant": "Variante",
+    "variants": "Variantes",
+    "viewAll": "Ver todos",
+    "visibility": "Visibilidad",
+    "zipCode": "Código postal",
+    "access": "Acceso",
+    "settings": "Ajustes",
+    "watermark": "Marca de agua",
+    "verified": "Verificado",
+    "unverified": "No verificado"
+  },
+  "fields": {
+    "action": {
+      "label": "Acción"
+    },
+    "actions": {
+      "label": "Acciones"
+    },
+    "class": {
+      "label": "Clase"
+    },
+    "contentType": {
+      "label": "Tipo de contenido"
+    },
+    "description": {
+      "label": "Descripción"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Ingresa tu email"
+    },
+    "file": {
+      "label": "Archivo"
+    },
+    "fileCsfPdf": {
+      "label": "Archivo Csf PDF"
+    },
+    "filePdf": {
+      "label": "Archivo PDF"
+    },
+    "files": {
+      "label": "Archivos"
+    },
+    "image": {
+      "label": "Imagen"
+    },
+    "name": {
+      "label": "Nombre"
+    },
+    "pathname": {
+      "label": "Vista previa"
+    },
+    "priority": {
+      "label": "Prioridad",
+      "icon": "i-mdi-signal"
+    },
+    "public": {
+      "label": "Público"
+    },
+    "recordId": {
+      "label": "ID del registro"
+    },
+    "select": {
+      "label": "Seleccionar"
+    },
+    "selectAll": {
+      "label": "Seleccionar todo"
+    },
+    "size": {
+      "label": "Tamaño"
+    },
+    "stage": {
+      "label": "Etapa",
+      "icon": "i-mdi-road-variant"
+    },
+    "status": {
+      "label": "Estado",
+      "icon": "i-mdi-checkbox-marked-circle-plus-outline"
+    },
+    "subclass": {
+      "label": "Subclase"
+    },
+    "subtype": {
+      "label": "Subtipo",
+      "icon": "i-mdi-shape"
+    },
+    "tableUid": {
+      "label": "Registro"
+    },
+    "type": {
+      "label": "Tipo",
+      "icon": "i-mdi-shape"
+    }
+  },
+  "modules": {
+    "catalogs": {
+      "name": "Datos Maestros",
+      "description": "Centraliza y gestiona datos maestros como clientes, proveedores, almacenes, productos, servicios y más."
+    },
+    "finances": {
+      "name": "Finanzas",
+      "description": "Gestiona ingresos, gastos, presupuestos y genera informes financieros detallados."
+    },
+    "inventory": {
+      "name": "Inventario & Almacenes",
+      "description": "Monitoriza niveles de stock, gestiona ubicaciones de productos y optimiza operaciones de almacenamiento."
+    },
+    "logistics": {
+      "name": "Distribución & Logística",
+      "description": "Coordina entregas y gestiona envíos para garantizar la entrega eficiente de pedidos."
+    },
+    "manufacturing": {
+      "name": "Manufactura",
+      "description": "Planifica y controla procesos de producción, recursos y tiempos de entrega."
+    },
+    "pos": {
+      "name": "Punto de venta (POS)",
+      "description": "Gestiona ventas en tienda, transacciones y recibos de puntos de venta físicos."
+    },
+    "procurement": {
+      "name": "Compras",
+      "description": "Gestiona proveedores, pedidos de compra y reabastecimiento de inventario con facilidad."
+    },
+    "quality": {
+      "name": "Control de calidad (QA)",
+      "description": "Garantiza la calidad de productos y servicios a través de inspecciones y comprobaciones de cumplimiento."
+    },
+    "reports": {
+      "name": "Reportes",
+      "description": "Genera insights y análisis de rendimiento para apoyar decisiones mejoradas."
+    },
+    "sales": {
+      "name": "Ventas (CRM)",
+      "description": "Gestiona leads, oportunidades y pipelines de ventas desde la cotización hasta el cierre."
+    }
+  },
+  "options": {
+    "colors": {
+      "primary": {
+        "red": "Rojo",
+        "orange": "Naranja",
+        "amber": "Amber",
+        "yellow": "Amarillo",
+        "lime": "Lima",
+        "green": "Verde",
+        "emerald": "Esmeralda",
+        "teal": "Teal",
+        "cyan": "Cyan",
+        "sky": "Cielo",
+        "blue": "Azul",
+        "indigo": "Índigo",
+        "violet": "Violeta",
+        "purple": "Purpura",
+        "fuchsia": "Fucsia",
+        "pink": "Rosa",
+        "rose": "Rosa"
+      },
+      "neutral": {
+        "slate": "Gris",
+        "gray": "Gris",
+        "zinc": "Zinc",
+        "neutral": "Neutral",
+        "stone": "Piedra"
+      }
+    },
+    "slideover": {
+      "help": "Representación en base de datos"
+    }
+  },
+  "pages": {
+    "auth": {
+      "signIn": {
+        "title": "Iniciar sesión",
+        "footer": "¿No tienes una cuenta?",
+        "footerAction": "Registrar",
+        "form": {
+          "validation": {
+            "invalidEmail": "Email inválido",
+            "minLength": "Debe tener al menos {length} caracteres"
+          },
+          "actions": {
+            "signIn": "Iniciar sesión",
+            "sendMagicLink": "Enviar enlace de acceso",
+            "signInWithPasskey": "Iniciar sesión con Passkey"
+          }
+        }
+      },
+      "signUp": {
+        "title": "Registrarse",
+        "footer": "¿Ya tienes una cuenta?",
+        "footerAction": "Iniciar sesión",
+        "form": {
+          "name": {
+            "label": "Nombre"
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "Ingresa tu email"
+          },
+          "validation": {
+            "invalidEmail": "Email inválido",
+            "minLength": "Debe tener al menos {length} caracteres"
+          },
+          "actions": {
+            "createAccount": "Crear cuenta"
+          }
+        }
+      }
+    },
+    "organizations": {
+      "title": "Organizaciones",
+      "welcome": "¡Bienvenido {name}!",
+      "description": "Desde aquí puedes acceder a las organizaciones a las que tienes acceso.",
+      "new": {
+        "title": "Crear una organización",
+        "description": "Crea una nueva organización para empezar a usar Netzo.",
+        "create": "Crear organización"
+      },
+      "~": {
+        "title": "Selecciona una organización",
+        "description": "Hola {name}, por favor selecciona una organización para continuar."
+      },
+      "invitation": {
+        "accept": "Aceptar invitación",
+        "reject": "Rechazar invitación",
+        "pending": {
+          "title": "Invitación a organización",
+          "description": "Has sido invitado por {inviterEmail} a unirte a la organización {organizationName}."
+        },
+        "accepted": {
+          "title": "Invitación aceptada",
+          "description": "Revisa tu email {email} y da click en el enlace de acceso que te enviamos para iniciar sesión."
+        },
+        "rejected": {
+          "title": "Invitación rechazada",
+          "description": "Has rechazado la invitación a la organización {organizationName}."
+        }
+      },
+      "noOrganizations": {
+        "title": "No tienes ninguna organización",
+        "description": "Crea una organización para empezar a usar Netzo.",
+        "createOrganization": "Crear organización"
+      }
+    },
+    "modules": {
+      "title": "Módulos",
+      "welcome": "¡Bienvenido {name}!",
+      "description": "Desde aquí puedes acceder a los módulos a los que tienes acceso.",
+      "noModules": {
+        "title": "No tienes acceso a ningún módulo de Netzo",
+        "description": "Contacta al administrador para que te grantes acceso."
+      }
+    },
+    "error": {
+      "description": "Lo sentimos, pero la página que está buscando no existe.",
+      "title": "Página no encontrada"
+    }
+  },
+  "placeholders": {
+    "filter": "Filtrar {label}",
+    "search": "Buscar {label}",
+    "enter": "Ingresar {label}",
+    "empty": {
+      "data": "No se encontraron datos",
+      "files": "No se encontró archivo | No se encontraron archivos",
+      "notes": "No se encontró nota | No se encontraron notas",
+      "notifications": "No se encontró notificación | No se encontraron notificaciones",
+      "pdf": "No se encontró PDF | No se encontraron PDFs",
+      "records": "No se encontró registro | No se encontraron registros"
+    }
+  },
+  "prompts": {
+    "archive": "Archivar registros evitará cambios futuros y no permitirá que se seleccionen en futuros formularios. Esta acción solo puede deshacerla un administrador. ¿Está seguro de que desea continuar?",
+    "immutable": {
+      "set": "Bloquear registros evitará cambios futuros. Esta acción solo puede deshacerla un administrador. ¿Está seguro de que desea continuar?",
+      "unset": "Desbloquear registros permitirá cambios futuros. ¿Está seguro de que desea continuar?"
+    },
+    "delete": "Eliminar registros los removerá permanentemente del sistema. Esta acción no se puede deshacer. ¿Está seguro de que desea continuar?",
+    "status": "Al cambiar el estado a {status}, los registros estarán protegidos evitando cambios futuros. Esta acción solo puede deshacerla un administrador. ¿Está seguro de que desea continuar?"
+  },
+  "admin": {
+    "roles": {
+      "admin": {
+        "label": "Administrador",
+        "description": "Acceso total a todas las funcionalidades y ajustes."
+      },
+      "owner": {
+        "label": "Propietario",
+        "description": "Creador de la organización con acceso total a todas las funcionalidades y ajustes."
+      },
+      "user": {
+        "label": "Usuario",
+        "description": "Acceso limitado a las funcionalidades principales y ajustes."
+      },
+      "edit": {
+        "label": "Editar",
+        "description": "Puede editar registros y realizar operaciones básicas."
+      },
+      "view": {
+        "label": "Ver",
+        "description": "Puede ver registros y realizar operaciones básicas."
+      }
+    },
+    "banned": {
+      "label": "Bloqueado",
+      "banReason": "Razón de bloqueo",
+      "banExpires": "Expira el"
+    }
+  },
+  "settings": {
+    "appearance": {
+      "label": "Apariencia",
+      "system": "Sistema",
+      "light": "Claro",
+      "dark": "Oscuro"
+    },
+    "language": "Idioma",
+    "theme": {
+      "label": "Tema",
+      "primary": "Primario",
+      "neutral": "Neutral"
+    }
+  },
+  "tables": {
+    "users": {
+      "name": "Usuario | Usuarios",
+      "description": ""
+    },
+    "sessions": {
+      "name": "Sesión | Sesiones",
+      "description": "Las sesiones representan usuarios autenticados activos."
+    },
+    "accounts": {
+      "name": "Cuenta | Cuentas",
+      "description": ""
+    },
+    "verifications": {
+      "name": "Verificación | Verificaciones",
+      "description": ""
+    },
+    "apikeys": {
+      "name": "Clave API | Claves API",
+      "description": ""
+    },
+    "jwkss": {
+      "name": "JWKS | JWKS",
+      "description": ""
+    },
+    "organizations": {
+      "name": "Organización | Organizaciones",
+      "description": ""
+    },
+    "members": {
+      "name": "Miembro | Miembros",
+      "description": ""
+    },
+    "invitations": {
+      "name": "Invitación | Invitaciones",
+      "description": ""
+    },
+    "passkeys": {
+      "name": "Passkey | Passkeys",
+      "description": "Las passkeys (o llaves de acceso) son una forma segura de autenticar usuarios sin contraseñas."
+    },
+    "barcodes": {
+      "name": "Código de barras | Códigos de barras",
+      "description": ""
+    },
+    "bundles": {
+      "name": "Paquete | Paquetes",
+      "description": ""
+    },
+    "bundleitems": {
+      "name": "Articulo | Articulos",
+      "description": ""
+    },
+    "bundlecategories": {
+      "name": "Categoría | Categorías",
+      "description": ""
+    },
+    "customers": {
+      "name": "Cliente | Clientes",
+      "description": ""
+    },
+    "customerbranches": {
+      "name": "Sucursal | Sucursales",
+      "description": ""
+    },
+    "customercontacts": {
+      "name": "Contacto | Contactos",
+      "description": ""
+    },
+    "customerorganizations": {
+      "name": "Organización | Organizaciones",
+      "description": ""
+    },
+    "costlists": {
+      "name": "Lista de costos | Listas de costos",
+      "description": ""
+    },
+    "costlistitems": {
+      "name": "Articulo | Articulos",
+      "description": ""
+    },
+    "pricelists": {
+      "name": "Lista de precios | Listas de precios",
+      "description": ""
+    },
+    "pricelistitems": {
+      "name": "Articulo | Articulos",
+      "description": ""
+    },
+    "products": {
+      "name": "Producto | Productos",
+      "description": ""
+    },
+    "productcategories": {
+      "name": "Categoría | Categorías",
+      "description": ""
+    },
+    "productvariants": {
+      "name": "Variante de producto | Variantes de productos",
+      "description": ""
+    },
+    "services": {
+      "name": "Servicio | Servicios",
+      "description": ""
+    },
+    "servicecategories": {
+      "name": "Categoría | Categorías",
+      "description": ""
+    },
+    "servicevariants": {
+      "name": "Variante de servicio | Variantes de servicios",
+      "description": ""
+    },
+    "suppliers": {
+      "name": "Proveedor | Proveedores",
+      "description": ""
+    },
+    "supplierbranches": {
+      "name": "Sucursal | Sucursales",
+      "description": ""
+    },
+    "suppliercontacts": {
+      "name": "Contacto | Contactos",
+      "description": ""
+    },
+    "supplierorganizations": {
+      "name": "Organización | Organizaciones",
+      "description": ""
+    },
+    "warehouses": {
+      "name": "Almacén | Almacenes",
+      "description": ""
+    },
+    "warehousezones": {
+      "name": "Zona | Zonas",
+      "description": ""
+    },
+    "warehouselocations": {
+      "name": "Ubicación | Ubicaciones",
+      "description": ""
+    },
+    "constants": {
+      "name": "Constante | Constantes",
+      "description": ""
+    },
+    "modules": {
+      "name": "Módulo | Módulos",
+      "description": ""
+    },
+    "tables": {
+      "name": "Tabla | Tablas",
+      "description": ""
+    },
+    "attributes": {
+      "name": "Atributo | Atributos",
+      "description": ""
+    },
+    "attributeitems": {
+      "name": "Opción | Opciones",
+      "description": ""
+    },
+    "fields": {
+      "name": "Campo personalizado | Campos personalizados",
+      "description": ""
+    },
+    "entities": {
+      "name": "Entidad | Entidades",
+      "description": ""
+    },
+    "measurementunits": {
+      "name": "Unidad de medida | Unidades de medida",
+      "description": ""
+    },
+    "moduleusers": {
+      "name": "Módulo de usuario | Módulos de usuarios",
+      "description": ""
+    },
+    "options": {
+      "name": "Opción | Opciones",
+      "description": ""
+    },
+    "organizationmodules": {
+      "name": "Módulo de la organización | Módulos de la organización",
+      "description": ""
+    },
+    "views": {
+      "name": "Vista | Vistas",
+      "description": ""
+    },
+    "banks": {
+      "name": "Banco | Bancos",
+      "description": ""
+    },
+    "financialaccounts": {
+      "name": "Cuenta financiera | Cuentas financieras",
+      "description": ""
+    },
+    "transactions": {
+      "name": "Transacción | Transacciones",
+      "description": ""
+    },
+    "auditlogs": {
+      "name": "Registro de auditoría | Registros de auditoría",
+      "description": ""
+    },
+    "events": {
+      "name": "Evento | Eventos",
+      "description": ""
+    },
+    "notifications": {
+      "name": "Notificación | Notificaciones",
+      "description": ""
+    },
+    "rules": {
+      "name": "Regla | Reglas",
+      "description": ""
+    },
+    "factories": {
+      "name": "Fábrica | Fábricas",
+      "description": ""
+    },
+    "manufacturingboms": {
+      "name": "Materiales de fabricación | Materiales de fabricación",
+      "description": ""
+    },
+    "manufacturingbomitems": {
+      "name": "Articulo | Articulos",
+      "description": ""
+    },
+    "manufacturingorders": {
+      "name": "Pedido de fabricación | Pedidos de fabricación",
+      "description": ""
+    },
+    "manufacturingorderitems": {
+      "name": "Articulo | Articulos",
+      "description": ""
+    },
+    "manufacturingschedules": {
+      "name": "Programación de fabricación | Programaciones de fabricación",
+      "description": ""
+    },
+    "manufacturingoperations": {
+      "name": "Operación de fabricación | Operaciones de fabricación",
+      "description": ""
+    },
+    "manufacturingresources": {
+      "name": "Recurso de fabricación | Recursos de fabricación",
+      "description": ""
+    },
+    "manufacturingroutes": {
+      "name": "Ruta de fabricación | Rutas de fabricación",
+      "description": ""
+    },
+    "manufacturingrouteoperations": {
+      "name": "Operación de ruta de fabricación | Operaciones de rutas de fabricación",
+      "description": ""
+    },
+    "workcenters": {
+      "name": "Centro de trabajo | Centros de trabajo",
+      "description": ""
+    },
+    "workcentercapabilities": {
+      "name": "Capacidad de centro de trabajo | Capacidades de centros de trabajo",
+      "description": ""
+    },
+    "purchaseorders": {
+      "name": "Pedido de compra | Pedidos de compra",
+      "description": ""
+    },
+    "purchaseorderitems": {
+      "name": "Articulo | Articulos",
+      "description": ""
+    },
+    "qualitycontrols": {
+      "name": "Control de calidad | Controles de calidad",
+      "description": ""
+    },
+    "qualitycontrolitems": {
+      "name": "Articulo | Articulos",
+      "description": ""
+    },
+    "qualitycontrolresults": {
+      "name": "Resultado de control de calidad | Resultados de controles de calidad",
+      "description": ""
+    },
+    "qualitycontrolresultitems": {
+      "name": "Articulo | Articulos",
+      "description": ""
+    },
+    "qualitycontrolroutines": {
+      "name": "Rutina de control de calidad | Rutinas de controles de calidad",
+      "description": ""
+    },
+    "qualitycontrolroutineitems": {
+      "name": "Articulo | Articulos",
+      "description": ""
+    },
+    "activities": {
+      "name": "Actividad | Actividades",
+      "description": ""
+    },
+    "campaigns": {
+      "name": "Campaña | Campañas",
+      "description": ""
+    },
+    "deals": {
+      "name": "Negocio | Negocios",
+      "description": ""
+    },
+    "leads": {
+      "name": "Prospecto | Prospectos",
+      "description": ""
+    },
+    "quotes": {
+      "name": "Cotización | Cotizaciones",
+      "description": ""
+    },
+    "quoteitems": {
+      "name": "Articulo | Articulos",
+      "description": ""
+    },
+    "salesorders": {
+      "name": "Orden de venta | Ordenes de ventas",
+      "description": ""
+    },
+    "salesinquiries": {
+      "name": "Solicitud | Solicitudes",
+      "description": ""
+    },
+    "salesorderitems": {
+      "name": "Articulo | Articulos",
+      "description": ""
+    },
+    "subscriptions": {
+      "name": "Suscripción | Suscripciones",
+      "description": ""
+    },
+    "subscriptionitems": {
+      "name": "Articulo | Articulos",
+      "description": ""
+    },
+    "files": {
+      "name": "Archivo | Archivos",
+      "description": ""
+    },
+    "notes": {
+      "name": "Nota | Notas",
+      "description": ""
+    },
+    "tasks": {
+      "name": "Tarea | Tareas",
+      "description": ""
+    }
+  },
+  "toasts": {
+    "copied": {
+      "success": "Copiado al portapapeles",
+      "error": "Error al copiar al portapapeles"
+    },
+    "clear": {
+      "selection": "Limpiar selección",
+      "error": "Error al limpiar la selección"
+    },
+    "download": {
+      "success": "{record} descargado correctamente",
+      "error": "Error al descargar {record}"
+    },
+    "users": {
+      "delete": "Usuario eliminado | Usuarios eliminados"
+    },
+    "archive": {
+      "error": "Error al archivar el registro | Error al archivar los registros",
+      "success": "Registro archivado correctamente | Registros archivados correctamente"
+    },
+    "unarchive": {
+      "error": "Error al desarchivar el registro | Error al desarchivar los registros",
+      "success": "Registro desarchivado correctamente | Registros desarchivados correctamente"
+    },
+    "block": {
+      "error": "Error al proteger el registro | Error al proteger los registros",
+      "success": "Registro protegido correctamente | Registros protegidos correctamente"
+    },
+    "unblock": {
+      "error": "Error al desproteger el registro | Error al desproteger los registros",
+      "success": "Registro desprotegido correctamente | Registros desprotegidos correctamente"
+    },
+    "generatedPdf": {
+      "success": "PDF generado correctamente",
+      "error": "Error al generar el PDF"
+    },
+    "validation": {
+      "error": {
+        "title": "{count} error de validación | {count} errores de validación",
+        "message": "Revisa los campos marcados en rojo y vuelve a intentarlo."
+      }
+    }
+  },
+  "tooltips": {
+    "buttonMenuInfo": "Ver documentación"
+  },
+  "views": {
+    "calendar": "Calendario",
+    "cards": "Tarjetas",
+    "table": "Tabla",
+    "kanban": "Kanban",
+    "list": "Lista"
+  }
+}
