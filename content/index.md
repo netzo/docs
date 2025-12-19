@@ -1,122 +1,108 @@
 ---
 seo:
-  title: Write beautiful docs with Markdown
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box. Docus brings together the best of the Nuxt ecosystem. Powered by Nuxt UI.
+  title: Documentación de Netzo | El ERP para la Manufactura en México
+  description: Aprende a digitalizar tu planta, gestionar inventarios y optimizar tu producción con Netzo. Documentación técnica y guías de usuario.
 ---
 
 ::u-page-hero
 #title
-Write beautiful docs with Markdown
+Impulsa tu fábrica con el ERP más ágil de México
 
 #description
-Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
-
-Docus brings the best of the Nuxt ecosystem into one CLI.
+Documentación oficial de Netzo. Centraliza tus operaciones, controla tu piso de producción y digitaliza tu PyME manufacturera con velocidad y precisión.
 
 #links
   :::u-button
   ---
-  color: neutral
+  color: primary
   size: xl
-  to: /getting-started/introduction
-  trailing-icon: i-mdi-arrow-right
+  to: /introduccion
+  trailing-icon: i-mdi-rocket-launch
   ---
-  Get started
+  Comenzar guía
   :::
 
   :::u-button
   ---
   color: neutral
-  icon: i-mdi-github
+  icon: i-mdi-web
   size: xl
-  to: https://github.com/netzo/docs
+  to: https://netzo.io/es
   variant: outline
   ---
-  Star on GitHub
+  Visitar netzo.io
   :::
 ::
 
 ::u-page-section
 #title
-Shipped with many features
+Soluciones diseñadas para el sector industrial
 
 #features
   :::u-page-feature
   ---
-  icon: i-mdi-nuxt
-  target: _blank
-  to: https://nuxt.com
+  icon: i-mdi-factory
   ---
   #title
-  Built with [Nuxt 4]{.text-primary}
+  Control de [Producción]{.text-primary}
 
   #description
-  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
+  Gestiona órdenes de trabajo y procesos de manufactura en tiempo real. Diseñado para las necesidades específicas de las PyMEs en México.
   :::
 
   :::u-page-feature
   ---
-  icon: i-mdi-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/
+  icon: i-mdi-warehouse
   ---
   #title
-  Powered by [Nuxt UI]{.text-primary}
+  Inventarios e [Insumos]{.text-primary}
 
   #description
-  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI to give you the best docs writing experience with zero boilerplate, just focus on your content.
+  Mantén un control estricto de materia prima, producto terminado y multialmacenes con trazabilidad completa.
   :::
 
   :::u-page-feature
   ---
-  icon: i-mdi-nuxt
-  target: _blank
-  to: https://content.nuxt.com
+  icon: i-mdi-chart-areaspline
   ---
   #title
-  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
+  Reportes [Operativos]{.text-primary}
 
   #description
-  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
+  Obtén visibilidad total de tu planta. Toma decisiones basadas en datos reales de rendimiento y costos de producción.
   :::
 
   :::u-page-feature
   ---
-  icon: i-mdi-nuxt
-  target: _blank
-  to: https://nuxt.com/docs/guide/directory-structure/app-config
+  icon: i-mdi-account-group
   ---
   #title
-  Customize with [Nuxt App Config]{.text-primary}
+  Ventas y [Cotizaciones]{.text-primary}
 
   #description
-  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
+  Agiliza el ciclo comercial desde la cotización hasta la factura, integrando los costos de fabricación de forma automática.
   :::
 
   :::u-page-feature
   ---
-  icon: i-mdi-nuxt
-  target: _blank
-  to: https://content.nuxt.com/studio
+  icon: i-mdi-fountain-pen-tip
   ---
   #title
-  Collaborate on [Nuxt Studio]{.text-primary}
+  Personalización [Low-Code]{.text-primary}
 
   #description
-  Write and manage your content visually, with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
+  Adapta Netzo a tus procesos únicos. Nuestra infraestructura permite extender funcionalidades sin complicaciones técnicas excesivas.
   :::
 
   :::u-page-feature
   ---
-  icon: i-mdi-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/components/content-search
+  icon: i-mdi-shield-check
   ---
   #title
-  Built-in navigation and [full-text search]{.text-primary}
+  Cumplimiento [Fiscal MX]{.text-primary}
 
   #description
-  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+  Preparado para la normativa mexicana, facilitando la administración de tu negocio dentro del marco legal vigente.
   :::
 
 #top
