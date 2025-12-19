@@ -9,6 +9,9 @@ export default defineNuxtConfig({
       description: 'Netzo documentation',
     },
   },
+  site: {
+    name: 'Netzo',
+  },
   studio: {
     dev: false,
     repository: {
