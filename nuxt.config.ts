@@ -22,4 +22,12 @@ export default defineNuxtConfig({
       description: 'Netzo documentation',
     },
   },
+  studio: {
+    repository: {
+      provider: 'github',
+      owner: 'netzo',
+      repo: 'docs',
+      branch: 'main'
+    }
+  }
 })
