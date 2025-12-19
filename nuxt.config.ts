@@ -1,19 +1,5 @@
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/i18n', 'nuxt-studio'],
-  i18n: {
-    // see https://github.com/nuxt-content/studio/issues/92
-    defaultLocale: 'es',
-    locales: [
-      {
-        code: 'es',
-        name: 'Español',
-      },
-      {
-        code: 'en',
-        name: 'English',
-      },
-    ],
-  },
+  modules: ['nuxt-studio'],
   llms: {
     domain: 'https://docs.netzo.io',
     title: 'Netzo Docs',
