@@ -2,7 +2,8 @@
   "name": "docs",
   "scripts": {
     "dev": "nuxt dev --extends docus",
-    "build": "nuxt build --extends docus"
+    "build": "nuxt build --extends docus",
+    "preview": "PORT=1234 node .output/server/index.mjs"
   },
   "dependencies": {
     "@nuxt/eslint": "1.12.1",

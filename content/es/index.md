@@ -27,9 +27,9 @@ Docus rassemble le meilleur de l'écosystème Nuxt en une seule CLI.
   :::u-button
   ---
   color: neutral
-  icon: simple-icons-github
+  icon: i-mdi-github
   size: xl
-  to: https://github.com/nuxt-content/docus
+  to: https://github.com/netzo/docs
   variant: outline
   ---
   Voir sur GitHub
@@ -43,7 +43,7 @@ Livré avec de nombreuses fonctionnalités
 #features
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: i-mdi-nuxt
   target: _blank
   to: https://nuxt.com
   ---
@@ -56,7 +56,7 @@ Livré avec de nombreuses fonctionnalités
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: i-mdi-nuxt
   target: _blank
   to: https://ui.nuxt.com/
   ---
@@ -69,7 +69,7 @@ Livré avec de nombreuses fonctionnalités
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: i-mdi-nuxt
   target: _blank
   to: https://content.nuxt.com
   ---
@@ -82,7 +82,7 @@ Livré avec de nombreuses fonctionnalités
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: i-mdi-nuxt
   target: _blank
   to: https://nuxt.com/docs/guide/directory-structure/app-config
   ---
@@ -95,7 +95,7 @@ Livré avec de nombreuses fonctionnalités
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: i-mdi-nuxt
   target: _blank
   to: https://content.nuxt.com/studio
   ---
@@ -108,7 +108,7 @@ Livré avec de nombreuses fonctionnalités
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: i-mdi-nuxt
   target: _blank
   to: https://ui.nuxt.com/components/content-search
   ---

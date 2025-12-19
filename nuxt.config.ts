@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
   modules: ['@nuxtjs/i18n', 'nuxt-studio'],
   i18n: {
+    // see https://github.com/nuxt-content/studio/issues/92
     defaultLocale: 'es',
     locales: [
       {
@@ -23,6 +24,7 @@ export default defineNuxtConfig({
     },
   },
   studio: {
+    dev: false,
     repository: {
       provider: 'github',
       owner: 'netzo',
