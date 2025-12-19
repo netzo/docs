@@ -1,1 +1,7 @@
 title: Datos Maestros
+description: Define productos, variantes, formatos, unidades y catálogos que sirven como base para toda la operación.
+navigation:
+  icon: i-mdi-database
+seo:
+  title: Datos Maestros | Base estructural de Netzo ERP
+  description: Define productos, variantes, formatos, unidades y catálogos que sirven como base para toda la operación.
