@@ -1,15 +1,15 @@
 ---
 seo:
-  title: Documentación de Netzo | El ERP para la Manufactura en México
-  description: Aprende a digitalizar tu planta, gestionar inventarios y optimizar tu producción con Netzo. Documentación técnica y guías de usuario.
+  title: Documentación de Netzo | ERP Operativo para Manufactura en México
+  description: Netzo es un ERP operativo diseñado para la industria mexicana. Controla producción, inventarios, costos y ventas en tiempo real con automatización inteligente.
 ---
 
 ::u-page-hero
 #title
-Impulsa tu fábrica con el ERP más ágil de México
+El ERP que entiende cómo opera tu empresa
 
 #description
-Documentación oficial de Netzo. Centraliza tus operaciones, controla tu piso de producción y digitaliza tu PyME manufacturera con velocidad y precisión.
+Documentación oficial de Netzo ERP. Una plataforma operativa diseñada para manufactura y distribución en México. Automatiza procesos reales, elimina reprocesos y toma decisiones con datos confiables en tiempo real.
 
 #links
   :::u-button
@@ -19,7 +19,7 @@ Documentación oficial de Netzo. Centraliza tus operaciones, controla tu piso de
   to: /introduccion
   trailing-icon: i-mdi-rocket-launch
   ---
-  Comenzar guía
+  Empezar con Netzo
   :::
 
   :::u-button
@@ -30,13 +30,13 @@ Documentación oficial de Netzo. Centraliza tus operaciones, controla tu piso de
   to: https://netzo.io/es
   variant: outline
   ---
-  Visitar netzo.io
+  Conocer la plataforma
   :::
 ::
 
 ::u-page-section
 #title
-Soluciones diseñadas para el sector industrial
+Diseñado desde la operación, no desde la contabilidad
 
 #features
   :::u-page-feature
@@ -44,10 +44,10 @@ Soluciones diseñadas para el sector industrial
   icon: i-mdi-factory
   ---
   #title
-  Control de [Producción]{.text-primary}
+  Producción en [Tiempo Real]{.text-primary}
 
   #description
-  Gestiona órdenes de trabajo y procesos de manufactura en tiempo real. Diseñado para las necesidades específicas de las PyMEs en México.
+  Gestiona órdenes de trabajo, consumos y transformaciones tal como ocurren en el piso. Cada evento impacta inventarios, costos y trazabilidad automáticamente.
   :::
 
   :::u-page-feature
@@ -55,10 +55,10 @@ Soluciones diseñadas para el sector industrial
   icon: i-mdi-warehouse
   ---
   #title
-  Inventarios e [Insumos]{.text-primary}
+  Inventarios y [WMS]{.text-primary}
 
   #description
-  Mantén un control estricto de materia prima, producto terminado y multialmacenes con trazabilidad completa.
+  Control total de materia prima, WIP y producto terminado. Multialmacenes, zonas, buckets y valuación automática sin depender de Excel.
   :::
 
   :::u-page-feature
@@ -66,10 +66,10 @@ Soluciones diseñadas para el sector industrial
   icon: i-mdi-chart-areaspline
   ---
   #title
-  Reportes [Operativos]{.text-primary}
+  Visibilidad [Operativa]{.text-primary}
 
   #description
-  Obtén visibilidad total de tu planta. Toma decisiones basadas en datos reales de rendimiento y costos de producción.
+  Indicadores reales de operación, márgenes y costos derivados de la actividad diaria. Lo que ves es lo que realmente pasó.
   :::
 
   :::u-page-feature
@@ -77,10 +77,10 @@ Soluciones diseñadas para el sector industrial
   icon: i-mdi-account-group
   ---
   #title
-  Ventas y [Cotizaciones]{.text-primary}
+  Ventas con [Control]{.text-primary}
 
   #description
-  Agiliza el ciclo comercial desde la cotización hasta la factura, integrando los costos de fabricación de forma automática.
+  Cotiza y vende con base en disponibilidad real y costos actualizados. Netzo conecta ventas con operación para evitar promesas que no se pueden cumplir.
   :::
 
   :::u-page-feature
@@ -88,10 +88,10 @@ Soluciones diseñadas para el sector industrial
   icon: i-mdi-fountain-pen-tip
   ---
   #title
-  Personalización [Low-Code]{.text-primary}
+  Automatización [Low-Code]{.text-primary}
 
   #description
-  Adapta Netzo a tus procesos únicos. Nuestra infraestructura permite extender funcionalidades sin complicaciones técnicas excesivas.
+  Define reglas de negocio, validaciones y flujos sin desarrollo pesado. Netzo automatiza la operación sin perder flexibilidad ni control.
   :::
 
   :::u-page-feature
@@ -99,10 +99,10 @@ Soluciones diseñadas para el sector industrial
   icon: i-mdi-shield-check
   ---
   #title
-  Cumplimiento [Fiscal MX]{.text-primary}
+  Diseñado para [México]{.text-primary}
 
   #description
-  Preparado para la normativa mexicana, facilitando la administración de tu negocio dentro del marco legal vigente.
+  Costos reales, impuestos, controles internos y crecimiento ordenado. Netzo está pensado para cómo operan las empresas mexicanas hoy.
   :::
 
 #top
