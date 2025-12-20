@@ -19,5 +19,11 @@ export default defineAppConfig({
   socials: {
     x: 'https://x.com/netzoio',
     instagram: 'https://www.instagram.com/netzoio',
+  },
+  ui: {
+    colors: {
+      primary: 'blue',
+      neutral: 'neutral'
+    }
   }
 })

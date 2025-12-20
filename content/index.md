@@ -16,8 +16,8 @@ Documentación oficial de Netzo ERP. Una plataforma operativa diseñada para man
   ---
   color: primary
   size: xl
-  to: /inicio/introduccion
-  trailing-icon: i-mdi-rocket-launch
+  to: /inicio/introduction
+  trailing-icon: i-mdi-arrow-right
   ---
   Empezar con Netzo
   :::
