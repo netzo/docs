@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
-  modules: ['nuxt-studio'],
+  modules: ['@nuxt/ui', 'nuxt-studio'],
+  css: ['~/assets/css/main.css'],
   llms: {
     domain: 'https://docs.netzo.io',
     title: 'Netzo Docs',
