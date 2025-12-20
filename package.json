@@ -2,7 +2,7 @@
   "name": "docs",
   "scripts": {
     "dev": "nuxt dev --extends docus",
-    "build": "nuxt build --extends docus",
+    "build": "NODE_OPTIONS=--max-old-space-size=30720 nuxt build --extends docus",
     "preview": "PORT=1234 node .output/server/index.mjs"
   },
   "dependencies": {
