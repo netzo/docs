@@ -7,6 +7,9 @@ export default defineAppConfig({
       dark: '/netzo-logo-dark.svg'
     },
   },
+  docus: {
+    locale: 'es',
+  },
   github: {
     url: 'https://github.com/netzo/docs',
     branch: 'main',
