@@ -3,8 +3,6 @@ title: Campos personalizados
 description: Aprende a crear y usar campos personalizados en Netzo para extender el sistema de forma controlada, clara y escalable.
 ---
 
-# Campos personalizados
-
 Los **campos personalizados** permiten extender el modelo de datos de Netzo para adaptarlo a las necesidades específicas de cada empresa, **sin modificar el núcleo del sistema**.
 
 Son la forma correcta de capturar información adicional cuando:
@@ -14,7 +12,7 @@ Son la forma correcta de capturar información adicional cuando:
 - Debe ser estructurado, visible y controlado
 
 ::note
-Los campos personalizados **no son notas libres** ni comentarios informales. 
+Los campos personalizados **no son notas libres** ni comentarios informales.
 Son datos formales que pasan a formar parte del sistema y su trazabilidad.
 
 :br
@@ -99,7 +97,7 @@ Ejemplos comunes:
 - Movimientos de inventario
 
 ::note
-Un campo personalizado **no es global por defecto**. 
+Un campo personalizado **no es global por defecto**.
 Siempre pertenece a una entidad concreta.
 
 :br

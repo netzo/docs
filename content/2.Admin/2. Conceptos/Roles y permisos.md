@@ -3,8 +3,6 @@ title: Roles y permisos
 description: Guía para crear roles en Netzo y definir permisos de forma clara, segura y escalable.
 ---
 
-# Roles y permisos
-
 En Netzo, los **roles** son el mecanismo principal para gobernar **qué puede hacer cada usuario** dentro del sistema.
 
 Un rol **no representa una persona ni un puesto**. :br
@@ -20,7 +18,7 @@ Diseñar correctamente los roles permite:
 
 ::note
 Netzo separa de forma explícita **ver información**, **ver tipos de datos** y
-**actuar sobre los registros**. 
+**actuar sobre los registros**.
 Un usuario puede ver un registro sin poder modificarlo, o modificarlo sin poder aprobarlo.
 
 :br
@@ -84,7 +82,7 @@ Estos permisos controlan el **acceso base** a los registros del módulo.
 | Ver: Notas del registro    | Ver notas internas                |
 
 ::warning
-Si un rol **no tiene** el permiso **Ver: Registro**, 
+Si un rol **no tiene** el permiso **Ver: Registro**,
 ningún otro permiso tendrá efecto.
 
 :br
@@ -107,7 +105,7 @@ Netzo permite controlar **qué categorías de datos** son visibles para cada rol
 | Configuración  | Campos internos del sistema     |
 
 ::note
-Este diseño permite, por ejemplo, que un operador vea una orden 
+Este diseño permite, por ejemplo, que un operador vea una orden
 pero **no vea costos ni precios**.
 
 :br

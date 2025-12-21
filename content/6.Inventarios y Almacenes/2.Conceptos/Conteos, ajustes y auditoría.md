@@ -8,8 +8,6 @@ seo:
   description: Aprende cuándo ajustar inventario y cómo auditar movimientos correctamente.
 ---
 
-# Ajustes y auditoría
-
 Los ajustes son **excepciones**, no operación normal.
 
 ---

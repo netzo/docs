@@ -8,8 +8,6 @@ seo:
   description: Aprende cómo cada almacén gestiona su propio inventario, incluyendo entradas, salidas y traspasos, y por qué esto es clave para la operación.
 ---
 
-# Almacenes como contexto del inventario
-
 En Netzo, **el inventario siempre pertenece a un almacén**. :br
 No existe un inventario global único para toda la empresa.
 

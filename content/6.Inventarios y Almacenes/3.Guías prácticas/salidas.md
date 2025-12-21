@@ -8,12 +8,11 @@ seo:
   description: Aprende cómo registrar salidas de inventario por venta, producción, traspaso o de forma manual en Netzo.
 ---
 
-# Registro de salidas
-
 Esta guía explica **cómo registrar salidas de inventario desde un almacén** y **cuándo utilizar cada tipo de salida**, según el destino real del inventario.
 
 Una salida de inventario representa **algo que deja físicamente el almacén**.
 Registrar correctamente la salida garantiza:
+
 - Existencias reales
 - Cumplimiento de compromisos
 - Trazabilidad completa
@@ -47,97 +46,39 @@ Verifica siempre el almacén y las cantidades antes de confirmar.
 
 Selecciona el tipo de salida **según el destino real del inventario**.
 
-:::card-group
-
-  ::card
-  ---
-  title: Salida por venta
-  icon: i-mdi-handshake
-  ---
+::card-group
+  :::card{icon="i-mdi-handshake" title="Salida por venta"}
   Úsala cuando surtas físicamente una **orden de venta** hacia un cliente.
-  ::
+  :::
 
-  ::card
-  ---
-  title: Salida a producción
-  icon: i-mdi-cogs
-  ---
+  :::card{icon="i-mdi-cogs" title="Salida a producción"}
   Úsala cuando **materias primas o componentes** se consumen en una orden de producción.
-  ::
+  :::
 
-  ::card
-  ---
-  title: Salida por traspaso
-  icon: i-mdi-swap-horizontal
-  ---
+  :::card{icon="i-mdi-swap-horizontal" title="Salida por traspaso"}
   Se genera automáticamente en el **almacén origen** durante un traspaso entre almacenes.
-  ::
+  :::
 
-  ::card
-  ---
-  title: Salida manual
-  icon: i-mdi-alert
-  ---
+  :::card{icon="i-mdi-alert" title="Salida manual"}
   Úsala solo en **casos excepcionales**, cuando no existe otro proceso válido.
-  ::
+  :::
 
-  ::card
-  ---
-  title: Validar antes de confirmar
-  icon: i-mdi-clipboard-check
-  ---
+  :::card{icon="i-mdi-clipboard-check" title="Validar antes de confirmar"}
   Paso crítico para asegurar que la salida es correcta antes de afectar inventario.
-  ::
-
-:::
+  :::
+::
 
 ---
 
 ## Pasos generales para registrar una salida
 
-::steps{level="4"}
-
-#### Paso 1 · Accede al almacén correcto
-
-- Ve a **Inventarios → Almacenes**
-- Selecciona el almacén desde donde saldrá el inventario
-
-Confirma visualmente que estás en el almacén correcto.
-
+::steps
 ---
-
-#### Paso 2 · Inicia un registro de salida
-
-- Haz clic en **Registrar salida**
-- Selecciona el **tipo de salida** según el destino:
-  - Venta
-  - Producción
-  - Manual (solo si aplica)
-
+"0": Ve a **Inventarios → Almacenes**
+"1": Selecciona el almacén desde donde saldrá el inventario
+level: "4"
 ---
-
-#### Paso 3 · Captura la información de la salida
-
-Completa los datos requeridos:
-- Variante
-- Cantidad a retirar
-- Unidad o formato (si aplica)
-- Referencia (orden de venta, orden de producción, motivo)
-
----
-
-#### Paso 4 · Valida y confirma la salida
-
-Antes de confirmar:
-- Revisa **inventario disponible**
-- Verifica que no afectes reservas incorrectas
-- Confirma que el destino es correcto
-
-Haz clic en **Confirmar** para registrar la salida.
-
-::
-
----
+------------
 
 ## Resultado esperado
 
@@ -148,21 +89,18 @@ Al registrar correctamente una salida:
 - El movimiento queda **auditado**
 - La trazabilidad queda completa
 
----
-
 ## Cuándo NO usar una salida manual
 
-::warning
-No utilices salidas manuales para:
-- Simular ventas
-- Simular consumo productivo
-- Corregir errores recientes
-- Mover inventario entre almacenes
-::
+  :::warning
+  No utilices salidas manuales para:
+
+  - Simular ventas
+  - Simular consumo productivo
+  - Corregir errores recientes
+  - Mover inventario entre almacenes
+  :::
 
 Las salidas manuales existen solo para **casos excepcionales y justificados**.
-
----
 
 ## Errores comunes
 
@@ -171,12 +109,10 @@ Las salidas manuales existen solo para **casos excepcionales y justificados**.
 - Confundir formato con unidad base
 - Confirmar sin validar disponibilidad
 
-::tip
-Si una salida falla, revisa primero el estado del inventario
-antes de hacer ajustes manuales.
-::
-
----
+  :::tip
+  Si una salida falla, revisa primero el estado del inventario
+  antes de hacer ajustes manuales.
+  :::
 
 ## Relación con otros procesos
 
@@ -188,10 +124,9 @@ El registro de salidas se relaciona con:
 - Inventario disponible y reservado
 - Auditoría y reportes
 
----
-
 ## Siguiente paso
 
 - [Registro de entradas](/inventario/guias-practicas/entradas)
 - [Traspasos entre almacenes](/inventario/guias-practicas/traspasos)
 - [Consulta de inventario por almacén](/inventario/guias-practicas/consulta)
+::

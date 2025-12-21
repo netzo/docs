@@ -8,8 +8,6 @@ seo:
   description: Aprende cómo Netzo maneja variantes y formatos para controlar inventario correctamente.
 ---
 
-# Variantes y formatos
-
 El inventario **siempre se controla por variante**, no por producto genérico.
 
 ---

@@ -8,8 +8,6 @@ seo:
   description: Entiende cómo interpretar el inventario real por almacén y estado.
 ---
 
-# Inventario en almacén
-
 Esta vista muestra **el estado real del inventario** para un almacén específico.
 
 ---
