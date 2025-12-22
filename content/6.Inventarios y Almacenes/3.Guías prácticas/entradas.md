@@ -135,15 +135,73 @@ Cada tipo de entrada determina **qué información se solicita** y **qué proces
 
 #### Ve a **Inventarios → Almacenes → (Selecciona un almacén) → Entradas de mercancía**
 
-Haz click en el botón **Crear** y selecciona el tipo de entrada según el origen real del inventario.
+Haz clic en **Crear** y selecciona el **tipo de entrada** según el origen real del inventario
+(proveedor, producción, devolución o traspaso).
 
-Una vez creada la entrada, **procede a agregar las partidas** correspondientes.
-
-Navega a la sección de partidas haciendo click en el nombre de la entrada.
+Al crear la entrada, **ábrela haciendo clic en su nombre** para comenzar a trabajar con sus partidas.
 
 :::tip
-Dejar el nombre de la entrada en blanco, generará un nombre automático basado en la fecha
+Si dejas el nombre vacío, el sistema generará uno automáticamente con base en la fecha.
 :::
+
+---
+
+Dentro de una **entrada de mercancía**, el registro de partidas se divide en **cuatro pestañas**.
+Cada pestaña corresponde a un momento específico del proceso.
+
+::card-group
+
+  :::card
+  ---
+  title: Planificación
+  icon: i-mdi-clipboard-text-outline
+  ---
+  Aquí defines **qué artículos se esperan recibir**.
+
+  **Úsala para:**
+  - Agregar artículos
+  - Revisar artículos cargados automáticamente
+  - Confirmar cantidades planeadas
+  :::
+
+  :::card
+  ---
+  title: Ejecución
+  icon: i-mdi-truck-check-outline
+  ---
+  Aquí registras **lo que realmente ingresó al almacén**.
+
+  **En esta pestaña:**
+  - Capturas cantidades reales
+  - Ajustas diferencias contra lo planeado
+  :::
+
+  :::card
+  ---
+  title: Resumen
+  icon: i-mdi-table-check
+  ---
+  Vista final de control, disponible una vez que has **aprobado** la entrada.
+
+  **Permite:**
+  - Comparar planeado vs ejecutado
+  - Revisar totales
+  - Validar la entrada antes de cerrarla
+  :::
+
+  :::card
+  ---
+  title: Notas y archivos
+  icon: i-mdi-paperclip
+  ---
+  Espacio para **documentar y respaldar** la entrada.
+
+  **Úsala para:**
+  - Agregar observaciones
+  - Adjuntar documentos relacionados, fotografías o comprobantes
+  :::
+
+::
 
 
 #### **Planificación** (carga de artículos)
@@ -263,10 +321,9 @@ Si los artículos se cargan automáticamente, **solo debes verificar la informac
 
   Esta pestaña define **qué artículos registras físicamente** en el almacén. **(Piensa en esto como el conteo definitivo)**.
 
-  Aquí debes **capturar las cantidades reales** que ingresan, comparándolas con la planificación previa.
-  Segun la configuracion de cada producto (proveniente de Datos Maestros), podrás registrar información adicional como:
+  Aquí debes **capturar las cantidades reales** que ingresan, comparándolas con la planificación previa. Segun la configuracion de cada producto (proveniente de Datos Maestros), podrás registrar información adicional como:
 
-  - Lotes
+  - Lote
   - Fechas de caducidad
   - Números de serie
   - Otras características específicas
@@ -275,28 +332,38 @@ Si los artículos se cargan automáticamente, **solo debes verificar la informac
   El sistema te solicitará automáticamente los campos requeridos según la configuración de cada variante.
   ::
 
-  <!-- tabs -->
-   <!-- Utiliza el simbolo de rayo ⚡ para copiar rápidamente las cantidades planeadas a las cantidades recibidas.
-  De otro modo, ingresa manualmente las cantidades que estás registrando.
 
-  Para cada partida, completa el campo:
-  - **Cantidad recibida**
-    Ingresa la cantidad que realmente estás registrando en el almacén. -->
+  ::tabs{.w-full}
+    :::tabs-item{icon="i-mdi-lightning-bolt" label="Copiar cantidades planeadas"}
 
-::tabs{.w-full}
-  :::tabs-item{icon="i-mdi-lightning-bolt" label="Copiar cantidades planeadas"}
-  Utiliza el simbolo de rayo ⚡ para copiar rápidamente las cantidades planeadas a las cantidades recibidas.
+    Utiliza el simbolo de rayo ⚡ para **copiar rápidamente los artículos y cantidades planeadas** a la pestaña de ejecución.
 
-  ::note
-  Esta opción es útil estas cargando muchas partidas. Podras ajustar manualmente las cantidades que difieran.
+
+    **Que sucede al usar esta opción:**
+
+    - Se crearan las partidas en ejecucion con base en las planeadas.
+    - Apeceran campos como "Lote" o "Número de serie" si la variante lo requiere.
+    - Veras las columnas **Planeado** y **Recibido** para ingresar las cantidades finales.
+
+    ::tip
+    Activa el modo :icon{name="i-mdi-pencil"} "edicion rapida" para facilitar la captura masiva de cantidades.
+    ::
+
+    **Procede el conteo físico y captura las cantidades reales** recibidas en el almacén.
+
+    :::
+
+    :::tabs-item{icon="i-mdi-plus" label="Captura manual"}
+
+    Anade manualmente las partidas a la pestaña de ejecucion (Uno a uno o en bloque) y captura las cantidades recibidas.
+
+    ::tip
+    Activa el modo :icon{name="i-mdi-pencil"} "edicion rapida" para facilitar la captura masiva de cantidades.
+    ::
+
+    **Procede el conteo físico y captura las cantidades reales** recibidas en el almacén.
+
   ::
-  :::
-
-  :::tabs-item{icon="i-mdi-plus" label="Captura manual"}
-  Ingresa manualmente los artículos que deseas registrar.
-
-
-::
 
 ## Resultado esperado
 
