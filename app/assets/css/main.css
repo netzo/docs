@@ -7,4 +7,6 @@
 
 :root {
   --ui-radius: 0rem;
+  /* see https://ui.nuxt.com/docs/getting-started/theme/css-variables#container  */
+  --ui-container: 100rem; /* increase container width so table of contents is not cut off */
 }
