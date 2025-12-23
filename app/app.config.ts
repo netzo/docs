@@ -8,7 +8,8 @@ export default defineAppConfig({
     },
   },
   docus: {
-    locale: 'es', // localizes nuxt UI components
+    // DISABLED: since it causes "Cannot find module '/app/server/i18n/locales/es.js" error
+    // locale: 'es', // localizes nuxt UI components
   },
   github: {
     url: 'https://github.com/netzo/docs',
