@@ -16,19 +16,60 @@ Todo cambio ocurre como resultado de **operaciones reales** —entradas, salidas
 
 ### Capacidades clave
 
-- Control físico por almacén
-- Visibilidad de existencias y disponibilidad
-- Gestión de lotes y números de serie
-- Reservaciones y retenciones
-- Operaciones de inventario (entradas, salidas, transferencias, ajustes)
-- Integración con compras, ventas y producción
-- Reportes y análisis de inventario
-- Trazabilidad completa
-- Reglas y permisos por almacén
-- Soporte para formatos y unidades logísticas
-- Auditoría y control de cambios
-- Alertas de inventario
-- Soporte para múltiples ubicaciones y almacenes
+::card-group
+  :::card{icon="i-mdi-warehouse" title="Control por almacén"}
+  Gestión de inventario físico de forma independiente para cada almacén.
+  :::
+
+  :::card{icon="i-mdi-eye-outline" title="Visibilidad de existencias"}
+  Consulta clara del inventario total, disponible y comprometido.
+  :::
+
+  :::card{icon="i-mdi-package-variant-closed" title="Lotes y números de serie"}
+  Trazabilidad por lote o por unidad según el nivel de control requerido.
+  :::
+
+  :::card{icon="i-mdi-bookmark-outline" title="Reservaciones y retenciones"}
+  Compromiso y bloqueo de inventario sin alterar el total físico.
+  :::
+
+  :::card{icon="i-mdi-swap-horizontal" title="Operaciones de inventario"}
+  Entradas, salidas, transferencias y ajustes basados en eventos reales.
+  :::
+
+  :::card{icon="i-mdi-link-variant" title="Integración operativa"}
+  Conexión directa con compras, ventas y producción mediante movimientos.
+  :::
+
+  :::card{icon="i-mdi-chart-line" title="Reportes y análisis"}
+  Análisis de niveles, rotación y comportamiento del inventario.
+  :::
+
+  :::card{icon="i-mdi-timeline-clock-outline" title="Trazabilidad completa"}
+  Historial auditable de todos los movimientos y eventos de inventario.
+  :::
+
+  :::card{icon="i-mdi-shield-account-outline" title="Reglas y permisos"}
+  Control de acceso y operación definido por almacén y rol.
+  :::
+
+  :::card{icon="i-mdi-package-variant" title="Formatos y unidades"}
+  Soporte para empaques, kits y unidades logísticas sin duplicar inventario.
+  :::
+
+  :::card{icon="i-mdi-clipboard-check-outline" title="Auditoría y control"}
+  Registro de cambios, ajustes y validaciones con causa documentada.
+  :::
+
+  :::card{icon="i-mdi-bell-alert-outline" title="Alertas de inventario"}
+  Notificaciones automáticas ante niveles críticos o condiciones definidas.
+  :::
+
+  :::card{icon="i-mdi-map-marker-multiple" title="Múltiples ubicaciones"}
+  Operación simultánea de múltiples almacenes y centros logísticos.
+  :::
+::
+
 
 ---
 
