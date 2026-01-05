@@ -20,7 +20,7 @@ Esta estructura evita confusión y te permite avanzar más rápido, sin perder c
 
 ::card-group
   :::card{icon="i-mdi-lightbulb-on" title="Conceptos"}
-  Explican **cómo funciona Netzo**. 
+  Explican **cómo funciona Netzo**.
   Ideales para entender conceptos, modelos y decisiones del sistema.
 
   :br
@@ -30,7 +30,7 @@ Esta estructura evita confusión y te permite avanzar más rápido, sin perder c
   Guías prácticas para **realizar tareas específicas** paso a paso.
   :::
 
-  :::card{icon="i-mdi-book-open-variant" title="Glosario"}
+  :::card{icon="i-mdi-book-open-variant" title="Glosario y definiciones"}
   Definiciones precisas y técnicas. :br
   Se usan como consulta, no como lectura continua.
   :::
@@ -42,9 +42,9 @@ Esta estructura evita confusión y te permite avanzar más rápido, sin perder c
 
 | Necesitas…                  | Usa         |
 | --------------------------- | ----------- |
-| Entender cómo funciona algo | Explanation |
-| Ejecutar una tarea concreta | How-To      |
-| Confirmar una definición    | Reference   |
+| Confirmar una definición    | Glosario y definiciones   |
+| Entender cómo funciona algo | Conceptos |
+| Ejecutar una tarea concreta | Guías prácticas |
 
 ---
 
@@ -52,6 +52,6 @@ Esta estructura evita confusión y te permite avanzar más rápido, sin perder c
 
 Si eres nuevo en un módulo:
 
-1. Empieza con **Explanation**
-2. Luego usa **How-To**
-3. Consulta **Reference** solo si tienes dudas puntuales
+1. Empieza con **Conceptos**
+2. Luego usa **Guías prácticas** para tareas específicas
+3. Consulta **Glosario y definiciones** cuando tengas dudas puntuales

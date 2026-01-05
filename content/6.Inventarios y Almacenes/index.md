@@ -134,13 +134,36 @@ Describe **cómo puede utilizarse el stock** en la operación diaria.
 
 ## Variantes y formatos
 
-El inventario siempre se controla a nivel de **variantes de producto**
-(SKUs reales con los que se compra, almacena y vende).
+El inventario en Netzo siempre se controla a nivel de **SKU operativo**.
 
-Los **formatos** permiten operar el inventario como en la vida real:
-cajas, sacos, kits, tarimas, etc.
+Un **SKU** está compuesto por:
+**Variante de producto + Formato** + _**Lote** | **Número de Serie** (Si aplica)_
+
+Estos SKUs representan las **unidades reales con las que se compra, se almacena y se vende** el inventario.
+
+---
+
+- Las **Categorías** y los **Productos** funcionan como **estructuras organizativas**
+  → NO afectan inventario por sí mismas.
+
+- Los **Formatos** definen **cómo existe físicamente el inventario en la operación diaria**, permitiendo trabajar con el sistema tal como ocurre en la realidad:
+  - cajas de 12 unidades, tarima de 42 sacos, caja de 200 piezas, rollo de 1000 unidades, etc.
+
+:::note
+En conjunto, **Variante + Formato + _Lote|Serie_** determinan exactamente **qué se mueve, qué se cuenta y qué se despacha**.
+:::
+
 
 ::card-group
+  :::card{icon="i-mdi-shape-outline" title="Categorías"}
+  Agrupaciones generales de productos para organización y análisis.
+  Pueden ser utilizadas para reglas y reportes, pero no afectan inventario.
+  :::
+
+  :::card{icon="i-mdi-cube-outline" title="Productos"}
+  Definición general de un bien o servicio, que agrupa variantes específicas.
+  No crean inventario por sí mismos.
+  :::
   :::card{icon="i-mdi-tag-outline" title="Variantes"}
   Unidad base del inventario.
   Cada movimiento afecta a una variante concreta.
