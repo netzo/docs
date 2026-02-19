@@ -1,13 +1,11 @@
 export default defineNuxtConfig({
-  modules: ['@nuxt/ui', 'nuxt-studio'],
+  modules: [
+    '@nuxt/ui',
+    '@nuxt/content',
+    'nuxt-studio',
+  ],
   css: ['~/assets/css/main.css'],
-  vite: {
-    optimizeDeps: {
-      exclude: [
-        '@nuxtjs/mdc',
-      ],
-    },
-  },
+  content: {},
   llms: {
     domain: 'https://docs.netzo.io',
     title: 'Netzo Docs',
@@ -28,5 +26,12 @@ export default defineNuxtConfig({
       repo: 'docs',
       branch: 'main'
     }
-  }
+  },
+  vite: {
+    optimizeDeps: {
+      exclude: [
+        '@nuxtjs/mdc',
+      ],
+    },
+  },
 })
